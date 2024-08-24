@@ -1,1 +1,1 @@
-# Funbio2024-2_RepositorioGrupo9
+# Fundamentos de Biodiseño: Equipo 09
