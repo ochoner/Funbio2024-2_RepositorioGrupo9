@@ -1,7 +1,7 @@
 ## Fundamentos de Biodiseño: Equipo 09
 |    Integrantes del equipo            |   
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|   Juan Tinoco (Coordinador General) |
+|   Juan Tinoco (Coordinador General) aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa|
 |Renzo Bazalar (Diseño 3D)  |
 |  Alessandro Felix (Manufactura Aditiva)|
 | Macricielo Tello (Prototipado Electrónico)|
