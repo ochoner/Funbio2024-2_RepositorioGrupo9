@@ -18,3 +18,5 @@ Open Hardware fomenta una cultura de acceso libre a la tecnología y el conocimi
 
 ## Contexto sobre la falta de equipo médico en hospitales del Perú
 
+La escasez de equipos médicos en los hospitales peruanos es una problemática persistente que ha afecta la calidad y accesibilidad a la atención sanitaria en el país. Estudios recientes muestran que 51% de hospitales en el país cuentan con equipamiento obsoleto, siendo mucho más grave en regiones lejanas a la capital. Esta situación se ha visto agravada por diversos factores, entre los que destacan las limitaciones presupuestarias, falta de planificación y la creciente demanda de servicios de salud. La carencia de equipos básicos como centrífugas, equipos de diagnóstico por imágenes y material quirúrgico ha obligado a los profesionales de la salud a trabajar en condiciones precarias, poniendo en riesgo la vida de los pacientes. Además, la pandemia de COVID-19 ha exacerbado esta problemática, al aumentar exponencialmente la necesidad de equipos médicos especializados para atender a los pacientes con esta enfermedad.
+
