@@ -13,3 +13,8 @@ Para que un hardware sea considerado "abierto", debe cumplir con varios requisit
 - Derechos transferibles: Los derechos otorgados por la licencia deben poder transferirse a cualquier persona que redistribuya el hardware.
 
 Open Hardware fomenta una cultura de acceso libre a la tecnología y el conocimiento, permitiendo que personas de todo el mundo colaboren y contribuyan a mejorar los diseños existentes. Esto no solo promueve la innovación, sino que también ayuda a desarrollar soluciones más variadas y adaptadas a diferentes necesidades y contextos. En esencia, el Open Hardware busca democratizar la tecnología, haciéndola accesible para todos y permitiendo que cualquiera pueda ser un creador o innovador.
+
+[Fuente: https://www.oshwa.org/definition/spanish/]: # 
+
+## Contexto sobre la falta de equipo médico en hospitales del Perú
+
