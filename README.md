@@ -7,7 +7,7 @@
 
 
 
-| **Maricielo Tello**<br>(Prototipado electrónico) | **Daniel CHoquehuanca**<br>(Diseño electrónico) | 
+| **Maricielo Tello**<br>(Prototipado electrónico) | **Daniel Choquehuanca**<br>(Diseño electrónico) | 
 |:---------------------------------------:|:--------------------------------:|
 
 
