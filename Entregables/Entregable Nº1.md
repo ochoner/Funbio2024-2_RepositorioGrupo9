@@ -27,7 +27,7 @@ Las consecuencias de esta problemática se ve evidenciada en las largas colas qu
 La centrífuga es un equipo de laboratorio para separar sustancias de diferente densidad dentro de una muestra líquida mediante el uso de la fuerza centrípeta. Esta fuerza se genera al hacer girar la muestra a alta velocidad, lo que provoca que las partículas más densas se desplacen hacia el fondo del tubo de ensayo, mientras que las más ligeras permanecen en la parte superior. En el ambiente hospitalario estas son necesarias para el diagnóstico acertado de diversas patologías.
 Las centrífugas de baja velocidad son indispensables, especialmente cuando no se quieren dañar las muestras biológicas. Su rango de velocidad suele ser inferior a 6000 RPM, haciéndola ideal para trabajar con muestras delicadas. El precio de estas oscila entre los 500 a 1500 dólares.
 
-##Diagrama de Ishikawa
+## Diagrama de Ishikawa
 
 ![image](https://github.com/user-attachments/assets/1249a3db-2ed9-49ef-b094-244577d13870)
 
