@@ -31,7 +31,7 @@ Las centrífugas de baja velocidad son indispensables, especialmente cuando no s
 
 ![image](https://github.com/user-attachments/assets/1249a3db-2ed9-49ef-b094-244577d13870)
 
-##Definicion de la problemática
+## Definicion de la problemática
 
 Como grupo concluímos en que la escasez de centrífugas, siendo estas equipos de primer uso y esenciales para el diagnóstico, son la problemática a trabajar.
 
