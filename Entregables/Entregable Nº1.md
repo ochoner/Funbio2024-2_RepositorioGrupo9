@@ -50,4 +50,5 @@ El CentriDrive es un dispositivo médico económico, ensamblado con componentes 
 
 3.- An ultralow-cost portable centrifuge from discarded materials for medical applications
 
+El artículo describe el desarrollo de una centrífuga portátil de bajo costo creada a partir de materiales reciclados. Este dispositivo tiene aplicaciones médicas, especialmente en regiones con recursos limitados. Se destaca por su simplicidad, accesibilidad y eficiencia en la separación de fluidos biológicos, lo que lo convierte en una herramienta valiosa en entornos donde el acceso a equipos de laboratorio avanzados es limitado.
 
