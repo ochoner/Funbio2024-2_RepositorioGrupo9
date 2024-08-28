@@ -20,7 +20,7 @@
 > ![ñenzo](https://github.com/user-attachments/assets/38e7dbff-08b5-4916-91b2-bad93abfa03c)
 
 
->  Alumno de Ingeniería Biomédica con interés en la biomecánica e ingeniería de tejidos. Encargado del diseño de modelos tridimensionales detallados usando software especializado, asegurando que los diseños cumplan con las especificaciones técnicas y funcionales. Colabora con ingenieros y otros miembros del equipo para integrar estos diseños en el producto final, facilitando la fabricación, pruebas y prototipado.
+>  Alumno de Ingeniería Biomédica con interés en la biomecánica e ingeniería de tejidos. Encargado del diseño de modelos tridimensionales detallados usando software especializado, asegurando que los diseños cumplan con las especificaciones técnicas y funcionales. En colaboración con otros miembros del equipo para integrar estos diseños en el producto final, facilitando la fabricación, pruebas y prototipado.
 >
 > * **Maricielo Tello (Prototipado electrónico)**
 >   
