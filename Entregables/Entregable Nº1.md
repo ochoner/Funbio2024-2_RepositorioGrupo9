@@ -55,7 +55,7 @@ El CentriDrive es un dispositivo médico económico, ensamblado con componentes 
 El artículo describe el desarrollo de una centrífuga portátil de bajo costo creada a partir de materiales reciclados. Este dispositivo tiene aplicaciones médicas, especialmente en regiones con recursos limitados. Se destaca por su simplicidad, accesibilidad y eficiencia en la separación de fluidos biológicos, lo que lo convierte en una herramienta valiosa en entornos donde el acceso a equipos de laboratorio avanzados es limitado.
 
 
-BIBLIOGRAFÍA
+## Bibliografía
 
 [1] C. O. Lovejoy, "Reexamining Human Origins in Light of Ardipithecus ramidus," PLOS Biology, vol. 12, no. 1, pp. 1-9, Jan. 2014. [Online]. Available: https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000251. [Accessed: Aug. 30, 2024].
 
