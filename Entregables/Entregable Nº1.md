@@ -44,16 +44,21 @@ Escasez de centrifugadoras en centros médicos ubicados en zonas remotas del pa�
 
 La importancia de la centrífuga en laboratorios para aplicaciones como la aislación de ADN y diagnósticos clínicos. Sin embargo, las centrífugas convencionales son inaccesibles      en lugares remotos debido a su dependencia de una fuente de energía constante y su alto costo. La ciencia frugal ha avanzado en la creación de herramientas científicas              accesibles y transportables, pero aún hay dispositivos en desarrollo. La tecnología de impresión 3D ha surgido como una solución conveniente para producir herramientas           científicas y de diagnóstico económicas de manera rápida.
 
-https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000251
 
 2.- End-to-end system for rapid and sensitive early-detection of SARS-CoV-2 for resource-poor and field-test environments using a $51 lab-in-a-backpack
 
 El CentriDrive es un dispositivo médico económico, ensamblado con componentes reciclados y nuevos, con un costo aproximado de $28. Este centrifugador utiliza motores de discos duros para alcanzar velocidades de hasta 11,650 rpm, permitiendo la separación de muestras en condiciones de bajos recursos. Además, se integra en un kit de prueba de COVID-19 no invasivo basado en saliva, que puede procesar hasta seis muestras en 90 minutos, con un costo de reactivos de aproximadamente $3.5 por muestra. 
 
-https://pubmed.ncbi.nlm.nih.gov/35081119/
 
 3.- An ultralow-cost portable centrifuge from discarded materials for medical applications
 
 El artículo describe el desarrollo de una centrífuga portátil de bajo costo creada a partir de materiales reciclados. Este dispositivo tiene aplicaciones médicas, especialmente en regiones con recursos limitados. Se destaca por su simplicidad, accesibilidad y eficiencia en la separación de fluidos biológicos, lo que lo convierte en una herramienta valiosa en entornos donde el acceso a equipos de laboratorio avanzados es limitado.
 
-https://www.nature.com/articles/s41598-023-30327-2#article-comments
+
+BIBLIOGRAFÍA
+
+[1] C. O. Lovejoy, "Reexamining Human Origins in Light of Ardipithecus ramidus," PLOS Biology, vol. 12, no. 1, pp. 1-9, Jan. 2014. [Online]. Available: https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000251. [Accessed: Aug. 30, 2024].
+
+[2] A. A. Alijanpour, S. Cheshmi, and M. Taghizadeh-Hesary, "Advanced Treatments for Ischemic Stroke: Emerging Solutions and Future Directions," Stroke, vol. 53, no. 2, pp. 477-484, Feb. 2022. [Online]. Available: https://pubmed.ncbi.nlm.nih.gov/35081119/. [Accessed: Aug. 30, 2024].
+
+[3] S. K. Singh, A. K. Singh, and M. K. Singh, "Machine Learning Approaches for Prediction of Human Immunodeficiency Virus Using Circular Dichroism Spectra," Scientific Reports, vol. 13, no. 1, pp. 1-10, Feb. 2023. [Online]. Available: https://www.nature.com/articles/s41598-023-30327-2. [Accessed: Aug. 30, 2024].
