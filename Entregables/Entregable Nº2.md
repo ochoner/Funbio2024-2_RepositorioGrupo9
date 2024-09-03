@@ -27,9 +27,9 @@ A pesar de ello, es una centrífuga eficaz, ya sea por los RPM que alcanza y tam
 a
 ## Patentes de Modelo de Utilidad
 a
-## Lista de Requerimientos
+# Lista de Requerimientos
 a
-## Propuesta de Solución
+# Propuesta de Solución
 a
 
 # Bibliografía
