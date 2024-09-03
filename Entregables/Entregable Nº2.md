@@ -23,9 +23,9 @@ Su tamaño no es impedimento para que cumpla funciones como tareas para separaci
 A pesar de ello, es una centrífuga eficaz, ya sea por los RPM que alcanza y también por las funciones extra que posee. Por ejemplo, tiene una apertura automática al momento de finalizar el proceso de centrifugación, y además tú mismo puedes cronometrar desde el mismo dispositivo el tiempo que quieres hacerlo funcionar. [3]
 ![image](https://github.com/user-attachments/assets/fdb9b41d-7527-445c-a3c3-576c97decae8)
 
-# Patentes de Invención
+## Patentes de Invención
 a
-# Patentes de Modelo de Utilidad
+## Patentes de Modelo de Utilidad
 a
 ## Lista de Requerimientos
 a
