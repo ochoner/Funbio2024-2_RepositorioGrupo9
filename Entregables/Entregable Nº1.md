@@ -16,11 +16,7 @@ Open Hardware fomenta una cultura de acceso libre a la tecnología y el conocimi
 
 [Fuente: https://www.oshwa.org/definition/spanish/]: # 
 
-## Contexto sobre la falta de equipo médico en hospitales del Perú
-
-La escasez de equipos médicos en los hospitales peruanos es una problemática persistente que ha afecta la calidad y accesibilidad a la atención sanitaria en el país. Estudios recientes muestran que 51% de hospitales en el país cuentan con equipamiento obsoleto, siendo mucho más grave en regiones lejanas a la capital. Esta situación se ha visto agravada por diversos factores, entre los que destacan las limitaciones presupuestarias, falta de planificación y la creciente demanda de servicios de salud. La carencia de equipos básicos como centrífugas, equipos de diagnóstico por imágenes y material quirúrgico ha obligado a los profesionales de la salud a trabajar en condiciones precarias, poniendo en riesgo la vida de los pacientes. Además, la pandemia de COVID-19 ha exacerbado esta problemática, al aumentar exponencialmente la necesidad de equipos médicos especializados para atender a los pacientes con esta enfermedad.
-
-Las consecuencias de esta problemática se ve evidenciada en las largas colas que deben hacer pacientes para poder ser atendidos. Los diagnosticos se retrasan porque en el centro no se tienen estos equipos, comprometiendo la calidad del tratamiendo que se brinda. Todo esto genera una carga mayor al personal de salud.
+## Contexto sobre la falta de equipo de laboratorio en universidades del Perú
 
 ### Centrífuga:
 
@@ -33,10 +29,11 @@ Las centrífugas de baja velocidad son indispensables, especialmente cuando no s
 
 ## Definicion de la problemática
 
-Como grupo concluímos en que la escasez de centrífugas, siendo estas equipos de primer uso y esenciales para el diagnóstico, son la problemática a trabajar.
+La escasez de centrífugas en universidades remotas del Perú afecta significativamente la capacidad de estas para realizar investigaciones científicas de calidad. Las centrífugas son herramientas esenciales en laboratorios de biología, química, medicina y otras disciplinas, utilizadas para separar componentes de muestras biológicas o químicas mediante la aplicación de fuerza centrífuga. La falta de este equipo puede limitar el alcance de los experimentos, la formación de estudiantes y la investigación científica en general.
 
-Problemática:
-Escasez de centrifugadoras en centros médicos ubicados en zonas remotas del país necesarios para procedimientos diagnósticos y tratamientos básicos
+Problemática: 
+
+Escasez de centrífugas en universidades remotas del Perú utilizadas para enseñanza e investigación
 
 ## Estado del arte
 
