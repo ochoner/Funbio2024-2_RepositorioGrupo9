@@ -36,7 +36,8 @@ Las centrífugas de baja velocidad son indispensables, especialmente cuando no s
 
 ## Diagrama de Ishikawa
 
-![image](https://github.com/user-attachments/assets/1249a3db-2ed9-49ef-b094-244577d13870)
+![image](https://github.com/user-attachments/assets/121ee8dd-88a9-425d-828d-cbe37a58635a)
+
 
 ## Definicion de la problemática
 
