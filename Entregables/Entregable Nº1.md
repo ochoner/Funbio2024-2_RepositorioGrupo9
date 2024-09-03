@@ -24,10 +24,10 @@ Contexto General:
 En Perú, las universidades públicas enfrentan serios desafíos en cuanto a la infraestructura y el equipamiento de sus laboratorios , ellas carecen de los recursos necesarios para modernizar sus instalaciones y equipos. Esto se traduce en una enseñanza de calidad inferior, lo que afecta la formación de profesionales competentes en áreas como las STEM.
 
 Situación en Universidades Públicas:
-La UNI, por ejemplo, ha visto un deterioro en sus laboratorios, donde la mayoría de los equipos datan de los años 60 y 70. Esto ha llevado a la universidad a caer en los rankings de calidad educativa, situándose en el puesto 18 en el ranking Sayma 2024, una caída notable desde el octavo lugar en 2020. Los docentes han expresado la urgencia de invertir en la modernización de estos laboratorios para mantener la competitividad y calidad educativa.
-Otro ejemplo es de la Universidad Nacional de San Cristóbal de Huamanga ubicada en Ayacucho, en donde presentan la dificultad en demoras en las adquisiciones de equipos y bienes para proyectos de investigación. Esto influyó de manera negativa en el desarrollo de la investigación y publicación en revistas indizadas a nivel de Scopus o Wos.[4]
+La UNI, por ejemplo, ha visto un deterioro en sus laboratorios, donde la mayoría de los equipos datan de los años 60 y 70. Esto ha llevado a la universidad a caer en los rankings de calidad educativa, situándose en el puesto 18 en el ranking Sayma 2024, una caída notable desde el octavo lugar en 2020. Los docentes han expresado la urgencia de invertir en la modernización de estos laboratorios para mantener la competitividad y calidad educativa.[1]
+Otro ejemplo es de la Universidad Nacional de San Cristóbal de Huamanga ubicada en Ayacucho, en donde presentan la dificultad en demoras en las adquisiciones de equipos y bienes para proyectos de investigación. Esto influyó de manera negativa en el desarrollo de la investigación y publicación en revistas indizadas a nivel de Scopus o Wos.[2]
 
-El déficit de recursos para investigación científica y educativa trae consigo que la calidad educativa en las universidades públicas emerja y además que estudiantes con carreras como lo pueden ser medicina o tecnología médica egresen sin tener conocimientos básicos en el uso de equipos que están relacionados con su malla. [5]
+El déficit de recursos para investigación científica y educativa trae consigo que la calidad educativa en las universidades públicas emerja y además que estudiantes con carreras como lo pueden ser medicina o tecnología médica egresen sin tener conocimientos básicos en el uso de equipos que están relacionados con su malla. [3]
 
 
 Comparación con Universidades Privadas:
@@ -55,27 +55,28 @@ Escasez de centrífugas en universidades remotas del Perú utilizadas para ense�
 
 1.- A 3D-printed hand-powered centrifuge for molecular biology. PLoS Biology
 
-La importancia de la centrífuga en laboratorios para aplicaciones como la aislación de ADN y diagnósticos clínicos. Sin embargo, las centrífugas convencionales son inaccesibles      en lugares remotos debido a su dependencia de una fuente de energía constante y su alto costo. La ciencia frugal ha avanzado en la creación de herramientas científicas              accesibles y transportables, pero aún hay dispositivos en desarrollo. La tecnología de impresión 3D ha surgido como una solución conveniente para producir herramientas           científicas y de diagnóstico económicas de manera rápida. [1]
+La importancia de la centrífuga en laboratorios para aplicaciones como la aislación de ADN y diagnósticos clínicos. Sin embargo, las centrífugas convencionales son inaccesibles      en lugares remotos debido a su dependencia de una fuente de energía constante y su alto costo. La ciencia frugal ha avanzado en la creación de herramientas científicas              accesibles y transportables, pero aún hay dispositivos en desarrollo. La tecnología de impresión 3D ha surgido como una solución conveniente para producir herramientas           científicas y de diagnóstico económicas de manera rápida. [4]
 
 
 2.- End-to-end system for rapid and sensitive early-detection of SARS-CoV-2 for resource-poor and field-test environments using a $51 lab-in-a-backpack
 
-El CentriDrive es un dispositivo médico económico, ensamblado con componentes reciclados y nuevos, con un costo aproximado de $28. Este centrifugador utiliza motores de discos duros para alcanzar velocidades de hasta 11,650 rpm, permitiendo la separación de muestras en condiciones de bajos recursos. Además, se integra en un kit de prueba de COVID-19 no invasivo basado en saliva, que puede procesar hasta seis muestras en 90 minutos, con un costo de reactivos de aproximadamente $3.5 por muestra. [2]
+El CentriDrive es un dispositivo médico económico, ensamblado con componentes reciclados y nuevos, con un costo aproximado de $28. Este centrifugador utiliza motores de discos duros para alcanzar velocidades de hasta 11,650 rpm, permitiendo la separación de muestras en condiciones de bajos recursos. Además, se integra en un kit de prueba de COVID-19 no invasivo basado en saliva, que puede procesar hasta seis muestras en 90 minutos, con un costo de reactivos de aproximadamente $3.5 por muestra. [5]
 
 
 3.- An ultralow-cost portable centrifuge from discarded materials for medical applications
 
-El artículo describe el desarrollo de una centrífuga portátil de bajo costo creada a partir de materiales reciclados. Este dispositivo tiene aplicaciones médicas, especialmente en regiones con recursos limitados. Se destaca por su simplicidad, accesibilidad y eficiencia en la separación de fluidos biológicos, lo que lo convierte en una herramienta valiosa en entornos donde el acceso a equipos de laboratorio avanzados es limitado. [3]
+El artículo describe el desarrollo de una centrífuga portátil de bajo costo creada a partir de materiales reciclados. Este dispositivo tiene aplicaciones médicas, especialmente en regiones con recursos limitados. Se destaca por su simplicidad, accesibilidad y eficiencia en la separación de fluidos biológicos, lo que lo convierte en una herramienta valiosa en entornos donde el acceso a equipos de laboratorio avanzados es limitado. [6]
 
 
 ## Bibliografía
+[1] "Profesor de la UNI revela las condiciones reales en las que se encuentran los laboratorios de la institución," La República, Aug. 7, 2024. https://larepublica.pe/sociedad/2024/08/07/profesor-de-la-uni-revela-las-condiciones-reales-en-las-que-se-encuentran-los-laboratorios-de-la-institucion-evat-204533.
 
-[1] C. O. Lovejoy, "Reexamining Human Origins in Light of Ardipithecus ramidus," PLOS Biology, vol. 12, no. 1, pp. 1-9, Jan. 2014. https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000251.
+[2] E. Inocente Castillo, "Gestión de la responsabilidad social universitaria en la Universidad del Pacífico," Master's thesis, Universidad del Pacífico, Lima, Peru, 2022. https://repositorio.up.edu.pe/bitstream/handle/11354/3475/Inocente%2C%20Evelin_Trabajo%20de%20investigacion_Maestria_2022.pdf?sequence=1&isAllowed=y
 
-[2] A. A. Alijanpour, S. Cheshmi, and M. Taghizadeh-Hesary, "Advanced Treatments for Ischemic Stroke: Emerging Solutions and Future Directions," Stroke, vol. 53, no. 2, pp. 477-484, Feb. 2022. https://pubmed.ncbi.nlm.nih.gov/35081119/.
+[3] L. M. Bravo Serrano, "Estrategias de aprendizaje y desarrollo de competencias para uso de equipos automatizados del Laboratorio Clínico en internos de Tecnología Médica de la Universidad de Chiclayo – 2016," Tesis de maestría, Universidad de Chiclayo, Chiclayo, Perú, 2016.
 
-[3] S. K. Singh, A. K. Singh, and M. K. Singh, "Machine Learning Approaches for Prediction of Human Immunodeficiency Virus Using Circular Dichroism Spectra," Scientific Reports, vol. 13, no. 1, pp. 1-10, Feb. 2023. https://www.nature.com/articles/s41598-023-30327-2.
+[4] C. O. Lovejoy, "Reexamining Human Origins in Light of Ardipithecus ramidus," PLOS Biology, vol. 12, no. 1, pp. 1-9, Jan. 2014. https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000251.
 
-[4] E. Inocente Castillo, "Gestión de la responsabilidad social universitaria en la Universidad del Pacífico," Master's thesis, Universidad del Pacífico, Lima, Peru, 2022. https://repositorio.up.edu.pe/bitstream/handle/11354/3475/Inocente%2C%20Evelin_Trabajo%20de%20investigacion_Maestria_2022.pdf?sequence=1&isAllowed=y
+[5] A. A. Alijanpour, S. Cheshmi, and M. Taghizadeh-Hesary, "Advanced Treatments for Ischemic Stroke: Emerging Solutions and Future Directions," Stroke, vol. 53, no. 2, pp. 477-484, Feb. 2022. https://pubmed.ncbi.nlm.nih.gov/35081119/.
 
-[5] L. M. Bravo Serrano, "Estrategias de aprendizaje y desarrollo de competencias para uso de equipos automatizados del Laboratorio Clínico en internos de Tecnología Médica de la Universidad de Chiclayo – 2016," Tesis de maestría, Universidad de Chiclayo, Chiclayo, Perú, 2016.
+[6] S. K. Singh, A. K. Singh, and M. K. Singh, "Machine Learning Approaches for Prediction of Human Immunodeficiency Virus Using Circular Dichroism Spectra," Scientific Reports, vol. 13, no. 1, pp. 1-10, Feb. 2023. https://www.nature.com/articles/s41598-023-30327-2.
