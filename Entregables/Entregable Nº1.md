@@ -21,10 +21,12 @@ Open Hardware fomenta una cultura de acceso libre a la tecnología y el conocimi
 La falta de equipos de laboratorio en las universidades peruanas es un problema significativo que afecta tanto a la educación pública como a la privada, aunque con diferencias notables en la magnitud y el impacto de esta situación.
 
 Contexto General:
-En Perú, las universidades públicas enfrentan serios desafíos en cuanto a la infraestructura y el equipamiento de sus laboratorios , ellas carecen de los recursos necesarios para modernizar sus instalaciones y equipos. Esto se traduce en una enseñanza de calidad inferior, lo que afecta la formación de profesionales competentes en áreas cómo las STEM
+En Perú, las universidades públicas enfrentan serios desafíos en cuanto a la infraestructura y el equipamiento de sus laboratorios , ellas carecen de los recursos necesarios para modernizar sus instalaciones y equipos. Esto se traduce en una enseñanza de calidad inferior, lo que afecta la formación de profesionales competentes en áreas como las STEM.
 
 Situación en Universidades Públicas:
 La UNI, por ejemplo, ha visto un deterioro en sus laboratorios, donde la mayoría de los equipos datan de los años 60 y 70. Esto ha llevado a la universidad a caer en los rankings de calidad educativa, situándose en el puesto 18 en el ranking Sayma 2024, una caída notable desde el octavo lugar en 2020. Los docentes han expresado la urgencia de invertir en la modernización de estos laboratorios para mantener la competitividad y calidad educativa.
+El déficit de recursos para investigación científica y educativa trae consigo que la calidad educativa en las universidades públicas emerja y además que estudiantes con carreras como lo pueden ser medicina o tecnología médica egresen sin tener conocimientos básicos en el uso de equipos que están relacionados con su malla. 
+
 
 Comparación con Universidades Privadas:
 En contraste, las universidades privadas, como la Pontificia Universidad Católica del Perú y la Universidad Peruana Cayetano Heredia, generalmente cuentan con más recursos para invertir en infraestructura y equipamiento. Esto les permite ofrecer una educación de mayor calidad y mantener mejores posiciones en los rankings educativos. Aunque también pueden enfrentar desafíos, su capacidad para modernizar laboratorios suele ser superior a la de las universidades públicas.
@@ -39,13 +41,13 @@ Las centrífugas de baja velocidad son indispensables, especialmente cuando no s
 ![image](https://github.com/user-attachments/assets/121ee8dd-88a9-425d-828d-cbe37a58635a)
 
 
-## Definicion de la problemática
+## Definición de la problemática
 
 La escasez de centrífugas en universidades remotas del Perú afecta significativamente la capacidad de estas para realizar investigaciones científicas de calidad. Las centrífugas son herramientas esenciales en laboratorios de biología, química, medicina y otras disciplinas, utilizadas para separar componentes de muestras biológicas o químicas mediante la aplicación de fuerza centrífuga. La falta de este equipo puede limitar el alcance de los experimentos, la formación de estudiantes y la investigación científica en general.
 
-Problemática: 
+## Problemática: 
 
-Escasez de centrífugas en universidades remotas del Perú utilizadas para enseñanza e investigación
+Escasez de centrífugas en universidades remotas del Perú utilizadas para enseñanza e investigación.
 
 ## Estado del arte
 
