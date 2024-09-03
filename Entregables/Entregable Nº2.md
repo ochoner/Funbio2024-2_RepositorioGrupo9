@@ -22,3 +22,14 @@ Es una centrífuga de mesa compacta que alcanza velocidades hasta de 14,500 RPM;
 Su tamaño no es impedimento para que cumpla funciones como tareas para separación de células, precipitación de proteínas y también muestras de sangre. Sin embargo, su rotor solo tiene la capacidad de llevar consigo 12 tubos de 1.5/2.0 ml lo cual limita el producto. Además, posee un precio quizás no accesible para toda institución educativa, ya que sobrepasa los 1000 dólares.
 A pesar de ello, es una centrífuga eficaz, ya sea por los RPM que alcanza y también por las funciones extra que posee. Por ejemplo, tiene una apertura automática al momento de finalizar el proceso de centrifugación, y además tú mismo puedes cronometrar desde el mismo dispositivo el tiempo que quieres hacerlo funcionar.
 ![image](https://github.com/user-attachments/assets/fdb9b41d-7527-445c-a3c3-576c97decae8)
+
+# Patentes de Invención
+a
+# Patentes de Modelo de Utilidad
+a
+## Lista de Requerimientos
+a
+## Propuesta de Solución
+a
+
+## Bibliografía
