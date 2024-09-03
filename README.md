@@ -22,14 +22,14 @@
 
 >  Alumno de Ingeniería Biomédica con interés en la biomecánica e ingeniería de tejidos. Encargado del diseño de modelos tridimensionales detallados usando software especializado, asegurando que los diseños cumplan con las especificaciones técnicas y funcionales. En colaboración con otros miembros del equipo para integrar estos diseños en el producto final, facilitando la fabricación, pruebas y prototipado.
 >
-> * **Maricielo Tello (Prototipado electrónico)**
+> * **Maricielo Tello (Prototipado y Diseño electrónico)**
 >   
 > ![maricielo](https://github.com/user-attachments/assets/7dd831b8-f7fb-41a9-a0b7-8c2f0d70497b)
 
 
 >  Alumna de Ingeniería Biomédica con interés en ingeniería de tejidos y biomateriales. Encargada del prototipado electrónico, desarrollando y ensamblando circuitos y sistemas para probar antes de la producción. Mi labor abarca diseño de circuitos, selección de componentes, creación de PCBs, soldadura, programación de microcontroladores y pruebas funcionales, asegurando que el prototipo cumpla con los requisitos técnicos y funcione correctamente en entornos biológicos.
 >
-> * **Daniel Choquehuanca (Diseño electrónico)**
+> * **Daniel Choquehuanca (Software)**
 >
 > ![dChoque](https://github.com/user-attachments/assets/f0d7ddc5-b3ae-48ca-8af4-994b586061cb)
 
