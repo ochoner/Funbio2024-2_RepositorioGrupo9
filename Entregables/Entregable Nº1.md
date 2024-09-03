@@ -18,6 +18,17 @@ Open Hardware fomenta una cultura de acceso libre a la tecnología y el conocimi
 
 ## Contexto sobre la falta de equipo de laboratorio en universidades del Perú
 
+La falta de equipos de laboratorio en las universidades peruanas es un problema significativo que afecta tanto a la educación pública como a la privada, aunque con diferencias notables en la magnitud y el impacto de esta situación.
+
+Contexto General:
+En Perú, las universidades públicas enfrentan serios desafíos en cuanto a la infraestructura y el equipamiento de sus laboratorios , ellas carecen de los recursos necesarios para modernizar sus instalaciones y equipos. Esto se traduce en una enseñanza de calidad inferior, lo que afecta la formación de profesionales competentes en áreas cómo las STEM
+
+Situación en Universidades Públicas:
+La UNI, por ejemplo, ha visto un deterioro en sus laboratorios, donde la mayoría de los equipos datan de los años 60 y 70. Esto ha llevado a la universidad a caer en los rankings de calidad educativa, situándose en el puesto 18 en el ranking Sayma 2024, una caída notable desde el octavo lugar en 2020. Los docentes han expresado la urgencia de invertir en la modernización de estos laboratorios para mantener la competitividad y calidad educativa.
+
+Comparación con Universidades Privadas:
+En contraste, las universidades privadas, como la Pontificia Universidad Católica del Perú y la Universidad Peruana Cayetano Heredia, generalmente cuentan con más recursos para invertir en infraestructura y equipamiento. Esto les permite ofrecer una educación de mayor calidad y mantener mejores posiciones en los rankings educativos. Aunque también pueden enfrentar desafíos, su capacidad para modernizar laboratorios suele ser superior a la de las universidades públicas.
+
 ### Centrífuga:
 
 La centrífuga es un equipo de laboratorio para separar sustancias de diferente densidad dentro de una muestra líquida mediante el uso de la fuerza centrípeta. Esta fuerza se genera al hacer girar la muestra a alta velocidad, lo que provoca que las partículas más densas se desplacen hacia el fondo del tubo de ensayo, mientras que las más ligeras permanecen en la parte superior. En el ambiente hospitalario estas son necesarias para el diagnóstico acertado de diversas patologías.
