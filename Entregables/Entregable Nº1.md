@@ -25,6 +25,7 @@ En Perú, las universidades públicas enfrentan serios desafíos en cuanto a la 
 
 Situación en Universidades Públicas:
 La UNI, por ejemplo, ha visto un deterioro en sus laboratorios, donde la mayoría de los equipos datan de los años 60 y 70. Esto ha llevado a la universidad a caer en los rankings de calidad educativa, situándose en el puesto 18 en el ranking Sayma 2024, una caída notable desde el octavo lugar en 2020. Los docentes han expresado la urgencia de invertir en la modernización de estos laboratorios para mantener la competitividad y calidad educativa.
+
 El déficit de recursos para investigación científica y educativa trae consigo que la calidad educativa en las universidades públicas emerja y además que estudiantes con carreras como lo pueden ser medicina o tecnología médica egresen sin tener conocimientos básicos en el uso de equipos que están relacionados con su malla. 
 
 
