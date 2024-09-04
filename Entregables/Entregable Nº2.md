@@ -24,7 +24,9 @@ A pesar de ello, es una centrífuga eficaz, ya sea por los RPM que alcanza y tam
 ![image](https://github.com/user-attachments/assets/fdb9b41d-7527-445c-a3c3-576c97decae8)
 
 ## Patentes de Invención
-Ultracompact Centrifuge, Specimen Container, and Methods of Use
+
+### Ultracompact Centrifuge, Specimen Container, and Methods of Use [4]
+
 |Número de Patente:  US2022347699A1 | País de Procedencia: Estados  Unidos | Fecha de Publicación:  2022-11-03|
 |-----------------------------------|--------------------------------------|----------------------------------|
 
@@ -40,10 +42,10 @@ Ultracompact Centrifuge, Specimen Container, and Methods of Use
 
 -Compatibilidad de Contenedores: Optimiza el espacio y asegura un rendimiento seguro y eficiente.
 
+![image](https://github.com/user-attachments/assets/5c9a4fba-1330-47fd-ad99-46aabcc5a196)![image](https://github.com/user-attachments/assets/e598d7f2-68c6-4a06-98a2-58c5cec834a5)!
 
-
-
-|Número de Patente:  Pendiente de asignación | País de Procedencia: China | Fecha de Publicación:  2023|
+### Low speed centrifuge damper [5]
+|Número de Patente:  CN206746835 | País de Procedencia: China | Fecha de Publicación:  15-12-2017|
 |--------------------------------------------|----------------------------|----------------------------|
 
 **Campo técnico**: La patente pertenece al área de amortiguación en dispositivos mecánicos, específicamente para centrífugas de baja velocidad.
@@ -60,9 +62,11 @@ Ultracompact Centrifuge, Specimen Container, and Methods of Use
   
 - Compatibilidad: Fácil de integrar en sistemas existentes de centrífugas.
 
+![image](https://github.com/user-attachments/assets/b2b90d3e-1a37-4f4f-b5c2-e4485b1eef89)  ![image](https://github.com/user-attachments/assets/89d54f85-0a17-4d74-9ddb-76568c2e4e24)
+
 ## Patentes de Modelo de Utilidad
 
-Centrifugadora de Laboratorio Médico con Función de Refrigeración
+### Centrifugadora de Laboratorio Médico con Función de Refrigeración [6]
 
 |Número de Patente:  EP3492177| País de Procedencia: Alemania | Fecha de Publicación: 2019-06-05|
 |-----------------------------|----------------------------|---------------------------------|
@@ -87,12 +91,32 @@ Conclusiones: La centrifugadora médica propuesta es innovadora por su capacidad
 
 ![image](https://github.com/user-attachments/assets/a1c9f945-86cd-40e1-bd19-ac476597e05d)
 
+### Spinning Top Centrifuge [7]
+
+|Número de Patente: US2023137327A1 | País de Procedencia: Estados Unidos| Fecha de Publicación: 04-05-2023|
+|-----------------------------|----------------------------|---------------------------------|
+
+La invención se refiere a un dispositivo centrífugo que funciona mediante bombeo manual o acción recíproca, diseñado para ser seguro y fácil de usar por niños en entornos educativos como laboratorios de K-12. El dispositivo tiene un interior hueco que acomoda un adaptador para alojar muestras en tubos de microcentrífuga. A diferencia de otros dispositivos, este no requiere fijación a una superficie y puede girar libremente o sobre un adaptador fijado. Es ideal para la separación de muestras en análisis científicos o industriales, y su diseño atractivo, similar a un juguete, lo hace especialmente adecuado para la enseñanza científica.
+
+Objetivos:
+
+La invención busca desarrollar un dispositivo centrífugo que funcione mediante bombeo manual o acción recíproca de un sistema de accionamiento, que sea seguro para que los niños lo operen de manera independiente. Este dispositivo debe generar suficiente fuerza centrífuga para separar muestras científicas comunes en entornos educativos, como laboratorios de K-12.
+
+Metodología:
+
+El diseño incluye un interior hueco que acomoda un adaptador o rotor para alojar las muestras científicas, preferiblemente en tubos de microcentrífuga extraíbles. A diferencia de otros dispositivos, este no requiere fijación a una superficie para funcionar, lo que lo hace versátil y fácil de usar en diferentes contextos.
+
+Resultados:
+
+El dispositivo permite la separación efectiva de muestras en un entorno educativo, siendo seguro y fácil de operar para niños. Además, su diseño atractivo, similar a un juguete, lo hace adecuado para la enseñanza y aprendizaje de conceptos científicos en niveles básicos.
+
+![image](https://github.com/user-attachments/assets/90793754-6113-4cae-92cd-e47cd7e5cad0)
 
 # Lista de Requerimientos
 ![image](https://github.com/user-attachments/assets/46662e60-f5f5-45e7-8758-e5bb44e1bdf3)
 
 # Propuesta de Solución
-
+Rediseñamos centrífugas de baja velocidad con impresión 3D para que sean modulares, económicas y fáciles de mantener, permitiendo intercambiar piezas y adaptarse a distintos volúmenes de muestra.
 
 # Bibliografía
 [1] S. K. Singh, A. K. Singh, and M. K. Singh, "Machine Learning Approaches for Prediction of Human Immunodeficiency Virus Using Circular Dichroism Spectra," Scientific Reports, vol. 13, no. 1, pp. 1-10, Feb. 2023. https://www.nature.com/articles/s41598-023-30327-2#MOESM2.
@@ -100,3 +124,11 @@ Conclusiones: La centrifugadora médica propuesta es innovadora por su capacidad
 [2] J. A. Espinosa, J. E. Caballero, and C. F. M. Meneses, "Understanding the effects of mechanical ventilation on lung injury: a biomechanical model-based study," PLOS ONE, vol. 17, no. 4, pp. 1-18, Apr. 2022. https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0266769.
 
 [3] "MiniSpin/MiniSpin plus Microcentrífugas," Eppendorf. https://www.eppendorf.com/es-es/Productos/Centrifugaci%C3%B3n/Microcentr%C3%ADfugas/MiniSpin-MiniSpinplus-p-PF-240750.
+
+[4] Schaff, Ulrich; Hong, Kyungjin; Pan, Tifany; Ragar, Jason; Richmond, Shelby; Sommer, Greg; Hong, Sean.(2022)."Ultracompact Centrifuge, Specimen Container, and Methods of Use".US2022347699A1.https://worldwide.espacenet.com/patent/search/family/081648461/publication/US2022347699A1?q=US2022347699A1
+
+[5] 喻文; 李前程; 邹晓鸿; YU WEN; LI QIANCHENG; ZOU XIAOHONG.(2017)."Low speed centrifuge damper".CN206746835U.https://worldwide.espacenet.com/patent/search/family/060611149/publication/CN206746835U?q=CN206746835
+
+[6] HarbersUrs R. Vollenweider.(2019)."Laborzentrifugensystem".EP3492177.https://patents.google.com/patent/EP3492177A1/de?oq=EP3492177
+
+[7] MEADOWS,V; MEADOWS,R; BARNER,E.(2023)."Spinning Top Centrifuge".https://worldwide.espacenet.com/patent/search/family/077671957/publication/US2023137327A1?q=US2023137327A1
