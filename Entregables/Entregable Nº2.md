@@ -116,7 +116,7 @@ El dispositivo permite la separación efectiva de muestras en un entorno educati
 ![image](https://github.com/user-attachments/assets/46662e60-f5f5-45e7-8758-e5bb44e1bdf3)
 
 # Propuesta de Solución
-Rediseñamos centrífugas de baja velocidad con impresión 3D para que sean modulares, económicas y fáciles de mantener, permitiendo intercambiar piezas y adaptarse a distintos volúmenes de muestra.
+Rediseño de centrífugas de baja velocidad con impresión 3D para que sean modulares, económicas y fáciles de mantener, permitiendo intercambiar piezas y adaptarse a distintos volúmenes de muestra.
 
 # Bibliografía
 [1] S. K. Singh, A. K. Singh, and M. K. Singh, "Machine Learning Approaches for Prediction of Human Immunodeficiency Virus Using Circular Dichroism Spectra," Scientific Reports, vol. 13, no. 1, pp. 1-10, Feb. 2023. https://www.nature.com/articles/s41598-023-30327-2#MOESM2.
