@@ -65,8 +65,12 @@ El CentriDrive es un dispositivo médico económico, ensamblado con componentes 
 
 3.- An ultralow-cost portable centrifuge from discarded materials for medical applications
 
-El artículo describe el desarrollo de una centrífuga portátil de bajo costo creada a partir de materiales reciclados. Este dispositivo tiene aplicaciones médicas, especialmente en regiones con recursos limitados. Se destaca por su simplicidad, accesibilidad y eficiencia en la separación de fluidos biológicos, lo que lo convierte en una herramienta valiosa en entornos donde el acceso a equipos de laboratorio avanzados es limitado [5].
+El artículo describe el desarrollo de una centrífuga portátil de bajo costo creada a partir de materiales reciclados llamada CentREUSE, el cual fue hecha en base a una centrífuga llamada PaperFuge. Este dispositivo tiene aplicaciones médicas, especialmente en regiones con recursos limitados. Se destaca por su simplicidad, accesibilidad y eficiencia en la separación de fluidos biológicos, lo que lo convierte en una herramienta valiosa en entornos donde el acceso a equipos de laboratorio avanzados es limitado. El dispositivo se usa iniciando la rotación sosteniendo los mangos (los cuales pueden ser lápices). Como las cuerdas estarán ligeramente flojas, se comienza a oscilar el disco hacia adelante o hacia atrás según tu elección para provocar el enrollamiento de las cuerdas. Cuando las cuerdas se desenrollen, se tirarán de los mangos hasta que las cuerdas estén tensas, lo cual induce la rotación del disco hasta unos 400 rpm. [5].
 
+
+4.- A low-cost, open-source centrifuge adaptor for separating large volume clinical blood samples
+
+En este caso, se optimizó una minicentrífuga de modo que sea capaz de usar mayores volúmenes de muestras clínicas estándar en tubos de S-Monovette con un rotor de 160 mm de profundidad, 170 mm de anchura y 122 mm de altura. En la realización de esta optimización no se perdió su rendimiento, siendo esta igual a la de una centrífuga comercial. El diseño final del producto alcanzó una velocidad de alrededor de 6725 RPM, y no solo eso, sino que redujo abismalmente el precio pasando de 1500 dólares a uno que ronde los 140 dólares. Esto se logró adaptando del rotor mediante impresión 3D haciendo uso de tecnología de modelado por deposición fundida y con PLA. 
 
 ## Bibliografía
 
