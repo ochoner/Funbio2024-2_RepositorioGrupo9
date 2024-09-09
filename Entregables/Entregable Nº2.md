@@ -1,19 +1,31 @@
 # Estado del Arte
 ## Equipos/Dispositivos existentes
 
-1) An ultralow-cost portable centrifuge from discarded materials for medical applications
-   
-El producto del que se habla en este artículo trata de una centrífuga llamada CentREUSE, el cual fue hecha en base a una centrífuga llamada PaperFuge. La finalidad del CentREUSE fue la mejora de la cantidad de volumen. En este caso emplearon jeringas de 1.0 ml. Además, el producto resalta por su simplicidad de construcción, ya que se emplearon materiales que son desechados comúnmente por las personas. Materiales como cartón corrugado, papel de copia, un disco y una cuerda o hilo.
-El dispositivo se usa iniciando la rotación sosteniendo los mangos (los cuales pueden ser lápices). Como las cuerdas estarán ligeramente flojas, se comienza a oscilar el disco hacia adelante o hacia atrás según tu elección para provocar el enrollamiento de las cuerdas. Cuando las cuerdas se desenrollen, se tirarán de los mangos hasta que las cuerdas estén tensas, lo cual induce la rotación del disco hasta unos 400 rpm. [1]
-![image](https://github.com/user-attachments/assets/b6f62208-a959-4dfb-8178-d6a8d85986c4)
+1) OHAUS FC5706 Frontier 5000 Series Multi Centrifuge
 
 
-2) A low-cost, open-source centrifuge adaptor for separating large volume clinical blood samples
-   
-   
-En este caso, se optimizó una minicentrífuga de modo que sea capaz de usar mayores volúmenes de muestras clínicas estándar en tubos de S-Monovette con un rotor de 160 mm de profundidad, 170 mm de anchura y 122 mm de altura. En la realización de esta optimización no se perdió su rendimiento, siendo esta igual a la de una centrífuga comercial. 
-El diseño final del producto alcanzó una  velocidad de alrededor de 6725 RPM, y no solo eso, sino que redujo abismalmente el precio pasando de 1500 dólares a uno que ronde los 140 dólares. Esto se logró adaptando del rotor mediante impresión 3D haciendo uso de tecnología de modelado por deposición fundida y con PLA. [2]
-_![centrifuga](https://github.com/user-attachments/assets/d81a8968-1e0e-44f3-a75e-b3c79717926f)_
+Es una centrífuga de sobremesa con diseño compacto y de fácil uso. Su rotor puede procesar hasta 6 muestras de tubos de 50 ml y 15 ml. Así mismo, el rotor se puede adaptar para llevar tubos de 1.5 ml y alcanza velocidades entre 2000-6000 RPM. Además, posee un sensor de desequilibrio de los rotores que detiene el proceso de centrifugación ya sea por desequilibrio o por un impacto súbito. No obstante, el precio de esta centrífuga ronda los 6000 y 7000 soles, por lo que lo convierte de difícil acceso para universidades con poco presupuesto.
+
+Especificaciones:
+- Dimensiones (Ancho x Profundidad x altura): 291 × 392 × 266 mm
+- Rango velocidad: 200 x 6000 RPM
+- Consumo de energía: 100 watts
+
+![image](https://github.com/user-attachments/assets/00da1386-2677-4869-85c3-ce522c00aff4)
+
+
+2) Labnet Spectrafuge Mini Centrifuge  
+
+
+Esta mini centrífuga de diseño compacto consta de 8 espacios para las muestras y alcanza los 6000 RPM. Es ideal para procesos de microfiltración y centrifugado rápido. El precio de esta centrifugadora es de $195, pero a pesar de su no tan alto precio comparado con otras centrífugas, esta tiene poca capacidad para las muestras, siendo de tubos de 1.5/2.0 ml. Esto limita la centrífuga para mero uso experimental más no para muestras de sangre las cuales necesitan tubos de mayor capacidad. 
+
+Especificaciones:
+- Dimensiones (Ancho x Profundidad x altura): 6.8 x 5.8 x 4.8 in (17.2 x 14.7 x 12.2 cm)
+- Velocidad: 6000 RPM
+- Consumo de energía: 100-240 V
+
+![LABNET](https://github.com/user-attachments/assets/81cdde00-3f8b-4d2f-b30c-2d5d85571e19)
+
 
 3) Eppendorf MiniSpin Centrifuge
    
@@ -21,6 +33,12 @@ _![centrifuga](https://github.com/user-attachments/assets/d81a8968-1e0e-44f3-a75
 Es una centrífuga de mesa compacta que alcanza velocidades hasta de 14,500 RPM; es decir, posee un diseño para que sea pequeña y portátil, más enfocada para uso en laboratorios de investigación, clínicas o centros educativos.
 Su tamaño no es impedimento para que cumpla funciones como tareas para separación de células, precipitación de proteínas y también muestras de sangre. Sin embargo, su rotor solo tiene la capacidad de llevar consigo 12 tubos de 1.5/2.0 ml lo cual limita el producto. Además, posee un precio quizás no accesible para toda institución educativa, ya que sobrepasa los 1000 dólares.
 A pesar de ello, es una centrífuga eficaz, ya sea por los RPM que alcanza y también por las funciones extra que posee. Por ejemplo, tiene una apertura automática al momento de finalizar el proceso de centrifugación, y además tú mismo puedes cronometrar desde el mismo dispositivo el tiempo que quieres hacerlo funcionar. [3]
+
+Especificaciones:
+- Dimensiones (Ancho x Profundidad x altura): 22.5 × 23.0 × 13.0 cm 
+- Velocidad: 800-13400 RPM
+- Consumo de energía: 70 W
+
 ![image](https://github.com/user-attachments/assets/fdb9b41d-7527-445c-a3c3-576c97decae8)
 
 ## Patentes de Invención
@@ -119,9 +137,9 @@ El dispositivo permite la separación efectiva de muestras en un entorno educati
 Rediseño de centrífugas de baja velocidad con impresión 3D para que sean modulares, económicas y fáciles de mantener, permitiendo intercambiar piezas y adaptarse a distintos volúmenes de muestra.
 
 # Bibliografía
-[1] S. K. Singh, A. K. Singh, and M. K. Singh, "Machine Learning Approaches for Prediction of Human Immunodeficiency Virus Using Circular Dichroism Spectra," Scientific Reports, vol. 13, no. 1, pp. 1-10, Feb. 2023. https://www.nature.com/articles/s41598-023-30327-2#MOESM2.
+[1] .
 
-[2] J. A. Espinosa, J. E. Caballero, and C. F. M. Meneses, "Understanding the effects of mechanical ventilation on lung injury: a biomechanical model-based study," PLOS ONE, vol. 17, no. 4, pp. 1-18, Apr. 2022. https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0266769.
+[2] .
 
 [3] "MiniSpin/MiniSpin plus Microcentrífugas," Eppendorf. https://www.eppendorf.com/es-es/Productos/Centrifugaci%C3%B3n/Microcentr%C3%ADfugas/MiniSpin-MiniSpinplus-p-PF-240750.
 
