@@ -4,7 +4,7 @@
 1) OHAUS FC5706 Frontier 5000 Series Multi Centrifuge
 
 
-Es una centrífuga de sobremesa con diseño compacto y de fácil uso. Su rotor puede procesar hasta 6 muestras de tubos de 50 ml y 15 ml. Así mismo, el rotor se puede adaptar para llevar tubos de 1.5 ml y alcanza velocidades entre 2000-6000 RPM. Además, posee un sensor de desequilibrio de los rotores que detiene el proceso de centrifugación ya sea por desequilibrio o por un impacto súbito. No obstante, el precio de esta centrífuga ronda los 6000 y 7000 soles, por lo que lo convierte de difícil acceso para universidades con poco presupuesto.
+Es una centrífuga de sobremesa con diseño compacto y de fácil uso. Su rotor puede procesar hasta 6 muestras de tubos de 50 ml y 15 ml. Así mismo, el rotor se puede adaptar para llevar tubos de 1.5 ml y alcanza velocidades entre 2000-6000 RPM. Además, posee un sensor de desequilibrio de los rotores que detiene el proceso de centrifugación ya sea por desequilibrio o por un impacto súbito. No obstante, el precio de esta centrífuga ronda los 6000 dólares, por lo que lo convierte de difícil acceso para universidades con poco presupuesto. [1]
 
 Especificaciones:
 - Dimensiones (Ancho x Profundidad x altura): 291 × 392 × 266 mm
@@ -137,9 +137,9 @@ El dispositivo permite la separación efectiva de muestras en un entorno educati
 Rediseño de centrífugas de baja velocidad con impresión 3D para que sean modulares, económicas y fáciles de mantener, permitiendo intercambiar piezas y adaptarse a distintos volúmenes de muestra.
 
 # Bibliografía
-[1] .
+[1] "Labconco CentriVap Benchtop Centrifugal Concentrator," Grainger. [Online]. Available: https://www.grainger.com/product/404U18.
 
-[2] .
+[2] "Labnet International C1301 Centrifuge," TEquipment. [Online]. Available: https://www.tequipment.net/Labnet-International/C1301/Centrifuges/.
 
 [3] "MiniSpin/MiniSpin plus Microcentrífugas," Eppendorf. https://www.eppendorf.com/es-es/Productos/Centrifugaci%C3%B3n/Microcentr%C3%ADfugas/MiniSpin-MiniSpinplus-p-PF-240750.
 
