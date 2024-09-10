@@ -4,7 +4,7 @@
 1) OHAUS FC5706 Frontier 5000 Series Multi Centrifuge
 
 
-Es una centrífuga de sobremesa con diseño compacto y de fácil uso. Su rotor puede procesar hasta 6 muestras de tubos de 50 ml y 15 ml. Así mismo, el rotor se puede adaptar para llevar tubos de 1.5 ml y alcanza velocidades entre 2000-6000 RPM. Además, posee un sensor de desequilibrio de los rotores que detiene el proceso de centrifugación ya sea por desequilibrio o por un impacto súbito. No obstante, el precio de esta centrífuga ronda los 6000 dólares, por lo que lo convierte de difícil acceso para universidades con poco presupuesto. [1]
+Es una centrífuga de sobremesa con diseño compacto y de fácil uso. Su rotor puede procesar hasta 6 muestras de tubos de 50 ml y 15 ml. Así mismo, el rotor se puede adaptar para llevar tubos de 1.5 ml y alcanza velocidades entre 2000-6000 RPM. Además, posee un sensor de desequilibrio de los rotores que detiene el proceso de centrifugación ya sea por desequilibrio o por un impacto súbito. No obstante, el precio de esta centrífuga ronda los 6000 dólares, por lo que lo convierte de difícil acceso para universidades con poco presupuesto [1].
 
 Especificaciones:
 - Dimensiones (Ancho x Profundidad x altura): 291 × 392 × 266 mm
@@ -17,7 +17,7 @@ Especificaciones:
 2) Labnet Spectrafuge Mini Centrifuge  
 
 
-Esta mini centrífuga de diseño compacto consta de 8 espacios para las muestras y alcanza los 6000 RPM. Es ideal para procesos de microfiltración y centrifugado rápido. El precio de esta centrifugadora es de $195, pero a pesar de su no tan alto precio comparado con otras centrífugas, esta tiene poca capacidad para las muestras, siendo de tubos de 1.5/2.0 ml. Esto limita la centrífuga para mero uso experimental más no para muestras de sangre las cuales necesitan tubos de mayor capacidad. 
+Esta mini centrífuga de diseño compacto consta de 8 espacios para las muestras y alcanza los 6000 RPM. Es ideal para procesos de microfiltración y centrifugado rápido. El precio de esta centrifugadora es de $195, pero a pesar de su no tan alto precio comparado con otras centrífugas, esta tiene poca capacidad para las muestras, siendo de tubos de 1.5/2.0 ml. Esto limita la centrífuga para mero uso experimental más no para muestras de sangre las cuales necesitan tubos de mayor capacidad [2]. 
 
 Especificaciones:
 - Dimensiones (Ancho x Profundidad x altura): 6.8 x 5.8 x 4.8 in (17.2 x 14.7 x 12.2 cm)
@@ -32,7 +32,7 @@ Especificaciones:
    
 Es una centrífuga de mesa compacta que alcanza velocidades hasta de 14,500 RPM; es decir, posee un diseño para que sea pequeña y portátil, más enfocada para uso en laboratorios de investigación, clínicas o centros educativos.
 Su tamaño no es impedimento para que cumpla funciones como tareas para separación de células, precipitación de proteínas y también muestras de sangre. Sin embargo, su rotor solo tiene la capacidad de llevar consigo 12 tubos de 1.5/2.0 ml lo cual limita el producto. Además, posee un precio quizás no accesible para toda institución educativa, ya que sobrepasa los 1000 dólares.
-A pesar de ello, es una centrífuga eficaz, ya sea por los RPM que alcanza y también por las funciones extra que posee. Por ejemplo, tiene una apertura automática al momento de finalizar el proceso de centrifugación, y además tú mismo puedes cronometrar desde el mismo dispositivo el tiempo que quieres hacerlo funcionar. [3]
+A pesar de ello, es una centrífuga eficaz, ya sea por los RPM que alcanza y también por las funciones extra que posee. Por ejemplo, tiene una apertura automática al momento de finalizar el proceso de centrifugación, y además tú mismo puedes cronometrar desde el mismo dispositivo el tiempo que quieres hacerlo funcionar [3].
 
 Especificaciones:
 - Dimensiones (Ancho x Profundidad x altura): 22.5 × 23.0 × 13.0 cm 
