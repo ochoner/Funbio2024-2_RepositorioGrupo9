@@ -78,8 +78,8 @@ En este caso, se optimizó una minicentrífuga de modo que sea capaz de usar may
 
 [2] 
 
-[3]
+[3] C. O. Lovejoy. (2014, Jan), "Reexamining Human Origins in Light of Ardipithecus ramidus," PLOS Biology, vol. 12. [Online]. Available: https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000251.
 
-[4] 
+[4] S. K. Singh, A. K. Singh, and M. K. Singh. (2023, Feb), "Machine Learning Approaches for Prediction of Human Immunodeficiency Virus Using Circular Dichroism Spectra," Scientific Reports, vol. 13. [Online]. Available: https://www.nature.com/articles/s41598-023-30327-2.
 
-[5] 
+[5] J. A. Espinosa, J. E. Caballero, and C. F. M. Meneses (2022, Apr), "Understanding the effects of mechanical ventilation on lung injury: a biomechanical model-based study," PLOS ONE, vol. 17. [Online]. Available: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0266769.
