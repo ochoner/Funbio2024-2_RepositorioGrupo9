@@ -25,9 +25,8 @@ En Perú, las universidades públicas enfrentan serios desafíos en cuanto a la 
 
 Situación en Universidades Públicas:
 La UNI, por ejemplo, ha visto un deterioro en sus laboratorios, donde la mayoría de los equipos datan de los años 60 y 70. Esto ha llevado a la universidad a caer en los rankings de calidad educativa, situándose en el puesto 18 en el ranking Sayma 2024, una caída notable desde el octavo lugar en 2020. Los docentes han expresado la urgencia de invertir en la modernización de estos laboratorios para mantener la competitividad y calidad educativa.
-Otro ejemplo es de la Universidad Nacional de San Cristóbal de Huamanga ubicada en Ayacucho, en donde presentan la dificultad en demoras en las adquisiciones de equipos y bienes para proyectos de investigación. Esto influyó de manera negativa en el desarrollo de la investigación y publicación en revistas indizadas a nivel de Scopus o Wos [1].
 
-El déficit de recursos para investigación científica y educativa trae consigo que la calidad educativa en las universidades públicas emerja y además que estudiantes con carreras como lo pueden ser medicina o tecnología médica egresen sin tener conocimientos básicos en el uso de equipos que están relacionados con su malla [2].
+El déficit de recursos para investigación científica y educativa trae consigo que la calidad educativa en las universidades públicas emerja y además que estudiantes con carreras como lo pueden ser medicina o tecnología médica egresen sin tener conocimientos básicos en el uso de equipos que están relacionados con su malla [1].
 
 
 Comparación con Universidades Privadas:
@@ -55,17 +54,17 @@ Escasez de centrífugas en universidades remotas del Perú utilizadas para ense�
 
 1.- A 3D-printed hand-powered centrifuge for molecular biology. PLoS Biology
 
-La importancia de la centrífuga en laboratorios para aplicaciones como la aislación de ADN y diagnósticos clínicos. Sin embargo, las centrífugas convencionales son inaccesibles      en lugares remotos debido a su dependencia de una fuente de energía constante y su alto costo. La ciencia frugal ha avanzado en la creación de herramientas científicas              accesibles y transportables, pero aún hay dispositivos en desarrollo. La tecnología de impresión 3D ha surgido como una solución conveniente para producir herramientas           científicas y de diagnóstico económicas de manera rápida [3].
+La importancia de la centrífuga en laboratorios para aplicaciones como la aislación de ADN y diagnósticos clínicos. Sin embargo, las centrífugas convencionales son inaccesibles      en lugares remotos debido a su dependencia de una fuente de energía constante y su alto costo. La ciencia frugal ha avanzado en la creación de herramientas científicas              accesibles y transportables, pero aún hay dispositivos en desarrollo. La tecnología de impresión 3D ha surgido como una solución conveniente para producir herramientas           científicas y de diagnóstico económicas de manera rápida [2].
 
 
 2.- End-to-end system for rapid and sensitive early-detection of SARS-CoV-2 for resource-poor and field-test environments using a $51 lab-in-a-backpack
 
-El CentriDrive es un dispositivo médico económico, ensamblado con componentes reciclados y nuevos, con un costo aproximado de $28. Este centrifugador utiliza motores de discos duros para alcanzar velocidades de hasta 11,650 rpm, permitiendo la separación de muestras en condiciones de bajos recursos. Además, se integra en un kit de prueba de COVID-19 no invasivo basado en saliva, que puede procesar hasta seis muestras en 90 minutos, con un costo de reactivos de aproximadamente $3.5 por muestra [4].
+El CentriDrive es un dispositivo médico económico, ensamblado con componentes reciclados y nuevos, con un costo aproximado de $28. Este centrifugador utiliza motores de discos duros para alcanzar velocidades de hasta 11,650 rpm, permitiendo la separación de muestras en condiciones de bajos recursos. Además, se integra en un kit de prueba de COVID-19 no invasivo basado en saliva, que puede procesar hasta seis muestras en 90 minutos, con un costo de reactivos de aproximadamente $3.5 por muestra [3].
 
 
 3.- An ultralow-cost portable centrifuge from discarded materials for medical applications
 
-El artículo describe el desarrollo de una centrífuga portátil de bajo costo creada a partir de materiales reciclados llamada CentREUSE, el cual fue hecha en base a una centrífuga llamada PaperFuge. Este dispositivo tiene aplicaciones médicas, especialmente en regiones con recursos limitados. Se destaca por su simplicidad, accesibilidad y eficiencia en la separación de fluidos biológicos, lo que lo convierte en una herramienta valiosa en entornos donde el acceso a equipos de laboratorio avanzados es limitado. El dispositivo se usa iniciando la rotación sosteniendo los mangos (los cuales pueden ser lápices). Como las cuerdas estarán ligeramente flojas, se comienza a oscilar el disco hacia adelante o hacia atrás según tu elección para provocar el enrollamiento de las cuerdas. Cuando las cuerdas se desenrollen, se tirarán de los mangos hasta que las cuerdas estén tensas, lo cual induce la rotación del disco hasta unos 400 rpm. [5].
+El artículo describe el desarrollo de una centrífuga portátil de bajo costo creada a partir de materiales reciclados llamada CentREUSE, el cual fue hecha en base a una centrífuga llamada PaperFuge. Este dispositivo tiene aplicaciones médicas, especialmente en regiones con recursos limitados. Se destaca por su simplicidad, accesibilidad y eficiencia en la separación de fluidos biológicos, lo que lo convierte en una herramienta valiosa en entornos donde el acceso a equipos de laboratorio avanzados es limitado. El dispositivo se usa iniciando la rotación sosteniendo los mangos (los cuales pueden ser lápices). Como las cuerdas estarán ligeramente flojas, se comienza a oscilar el disco hacia adelante o hacia atrás según tu elección para provocar el enrollamiento de las cuerdas. Cuando las cuerdas se desenrollen, se tirarán de los mangos hasta que las cuerdas estén tensas, lo cual induce la rotación del disco hasta unos 400 rpm. [4].
 
 
 4.- A low-cost, open-source centrifuge adaptor for separating large volume clinical blood samples
@@ -74,12 +73,12 @@ En este caso, se optimizó una minicentrífuga de modo que sea capaz de usar may
 
 ## Bibliografía
 
-[1] 
+[1] L Fernández Jeri. "Análisis de problemas de la universidad: el caso de la Universidad Nacional Mayor de San Marcos, Universidad Nacional de Ingeniería y Universidad Nacional Agraria La Molina," Revistas científicas de la UNALM, Sept. 2018. [Online]. Available: https://revistas.lamolina.edu.pe/index.php/acu/article/view/807
 
-[2] 
+[2] G. Byagathvalli, A. Pomerantz, S. Sinha, J. Standeven, M. S. Bhamla (2019, May), "A 3D-printed hand-powered centrifuge for molecular biology" [Online]. Available: https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000251.
 
-[3] C. O. Lovejoy. (2014, Jan), "Reexamining Human Origins in Light of Ardipithecus ramidus," PLOS Biology, vol. 12. [Online]. Available: https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000251.
+[3] E. E. Lin, U. A. Razzaque, S. A. Burrows, S. K. Smoukov(2022, Jay) "End-to-end system for rapid and sensitive early-detection of SARS-CoV-2 for resource-poor and field-test environments using a $51 lab-in-a-backpack" [Online]. Available: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0259886.
 
-[4] S. K. Singh, A. K. Singh, and M. K. Singh. (2023, Feb), "Machine Learning Approaches for Prediction of Human Immunodeficiency Virus Using Circular Dichroism Spectra," Scientific Reports, vol. 13. [Online]. Available: https://www.nature.com/articles/s41598-023-30327-2.
+[4] J. J. Franco, T. Nagata, T. Okamoto, S. Mukai (2023, Feb), "An ultralow-cost portable centrifuge from discarded materials for medical applications" [Online]. Available: https://www.nature.com/articles/s41598-023-30327-2.
 
-[5] J. A. Espinosa, J. E. Caballero, and C. F. M. Meneses (2022, Apr), "Understanding the effects of mechanical ventilation on lung injury: a biomechanical model-based study," PLOS ONE, vol. 17. [Online]. Available: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0266769.
+[5] E. Haque, L. Marriott, N. Naeem, T. Henry, A. J. Conde, M. Kersaudy-Kerhoas (2022, Apr), "A low-cost, open-source centrifuge adaptor for separating large volume clinical blood samples" [Online]. Available: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0266769.
