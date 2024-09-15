@@ -69,7 +69,7 @@ El artículo describe el desarrollo de una centrífuga portátil de bajo costo c
 
 4.- A low-cost, open-source centrifuge adaptor for separating large volume clinical blood samples
 
-En este caso, se optimizó una minicentrífuga de modo que sea capaz de usar mayores volúmenes de muestras clínicas estándar en tubos de S-Monovette con un rotor de 160 mm de profundidad, 170 mm de anchura y 122 mm de altura. En la realización de esta optimización no se perdió su rendimiento, siendo esta igual a la de una centrífuga comercial. El diseño final del producto alcanzó una velocidad de alrededor de 6725 RPM, y no solo eso, sino que redujo abismalmente el precio pasando de 1500 dólares a uno que ronde los 140 dólares. Esto se logró adaptando del rotor mediante impresión 3D haciendo uso de tecnología de modelado por deposición fundida y con PLA. 
+En este caso, se optimizó una minicentrífuga de modo que sea capaz de usar mayores volúmenes de muestras clínicas estándar en tubos de S-Monovette con un rotor de 160 mm de profundidad, 170 mm de anchura y 122 mm de altura. En la realización de esta optimización no se perdió su rendimiento, siendo esta igual a la de una centrífuga comercial. El diseño final del producto alcanzó una velocidad de alrededor de 6725 RPM, y no solo eso, sino que redujo abismalmente el precio pasando de 1500 dólares a uno que ronde los 140 dólares. Esto se logró adaptando del rotor mediante impresión 3D haciendo uso de tecnología de modelado por deposición fundida y con PLA [5]. 
 
 ## Bibliografía
 
