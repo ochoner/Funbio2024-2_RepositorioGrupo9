@@ -1,3 +1,4 @@
+![PUCP-UPCH](https://github.com/user-attachments/assets/7d3ac1bf-8d42-4a0c-b264-08dec3f11d9b)
 # Fundamentos de Biodiseño: Equipo 09
 ## Integrantes del Equipo 
 
