@@ -2,7 +2,7 @@
 # Bienvenidos al repositorio del equipo 09 !
 
 ## Temática del grupo:
-### Elaboración de una centrífuga de baja velocidad de bajo costo para centros universitarios de bajos recursos enfocada en investigación y educación.
+### Elaboración de una centrífuga de bajo costo para centros universitarios de escasos recursos enfocada en investigación y educación.
 ![image](https://github.com/user-attachments/assets/e45d809f-787b-4de8-9df5-ecc53127ccee)
 
 ## Integrantes del Equipo 
