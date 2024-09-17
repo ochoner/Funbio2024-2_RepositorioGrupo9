@@ -1,5 +1,10 @@
 ![PUCP-UPCH](https://github.com/user-attachments/assets/7d3ac1bf-8d42-4a0c-b264-08dec3f11d9b)
-# Fundamentos de Biodiseño: Equipo 09
+# Bienvenidos al repositorio del equipo 09 !
+
+## Temática del grupo:
+### Elaboración de una centrífuga de baja velocidad de bajo costo para centros universitarios de bajos recursos enfocada en investigación y educación.
+![image](https://github.com/user-attachments/assets/e45d809f-787b-4de8-9df5-ecc53127ccee)
+
 ## Integrantes del Equipo 
 
 > * **Juan Tinoco (Coordinador General)**
@@ -36,5 +41,8 @@
 
 
 >  Alumno de Ingeniería Biomédica con interés en el ámbito de la biomécanica e ingeníera de tejidos. Soy responsable del diseño electrónico, especializándome en la creación y validación de prototipos electrónicos. Manejo la programación de microcontroladores y la realización de pruebas funcionales. Mi objetivo es garantizar que cada prototipo no solo cumpla con los requisitos técnicos, sino que también funcione de manera óptima en su entorno operativo previsto.
+
+
+
 
 
