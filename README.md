@@ -1,5 +1,5 @@
 
-# Bienvenidos al repositorio del equipo 09 !
+# ¡ Bienvenidos al repositorio del equipo 09 !
 
 ## Temática del grupo:
 ### Elaboración de una centrífuga de bajo costo para centros universitarios de escasos recursos enfocada en investigación y educación.
