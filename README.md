@@ -5,7 +5,7 @@
 ### Elaboración de una centrífuga de bajo costo para centros universitarios de escasos recursos enfocada en investigación y educación.
 ![image](https://github.com/user-attachments/assets/e45d809f-787b-4de8-9df5-ecc53127ccee)
 
-## Integrantes del Equipo 
+# Integrantes del Equipo 
 
 Juan Tinoco (Coordinador General)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--> Correo: juan.tinoco@upch.pe
 
