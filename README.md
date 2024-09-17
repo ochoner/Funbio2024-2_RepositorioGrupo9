@@ -1,4 +1,4 @@
-![PUCP-UPCH](https://github.com/user-attachments/assets/7d3ac1bf-8d42-4a0c-b264-08dec3f11d9b)
+
 # Bienvenidos al repositorio del equipo 09 !
 
 ## Temática del grupo:
@@ -6,6 +6,16 @@
 ![image](https://github.com/user-attachments/assets/e45d809f-787b-4de8-9df5-ecc53127ccee)
 
 ## Integrantes del Equipo 
+
+Juan Tinoco (Coordinador General)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--> Correo: juan.tinoco@upch.pe
+
+Alessandro Felix (Manufactura Aditiva)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--> Correo: alessandro.felix@upch.pe
+
+Renzo Bazalar (Diseño 3D)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--> Correo: renzo.bazalar@upch.pe
+
+Maricielo Tello (Diseño Electrónico )&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--> Correo: maricielo.tello@upch.pe
+
+Daniel Choquehuanca (Diseño de software)&nbsp;&nbsp;&nbsp;&nbsp;--> Correo: daniel.choquehuanca@upch.pe
 
 > * **Juan Tinoco (Coordinador General)**
 >
