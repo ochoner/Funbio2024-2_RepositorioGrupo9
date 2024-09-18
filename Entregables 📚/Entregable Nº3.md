@@ -24,5 +24,3 @@
 [1]  H.Arroyo,W.De la Cruz,E. Miranda , “Dificultades para el desarrollo de investigaciones en pregrado en una universidad pública de provincia,Perú  .” [Online]. Available: http://www.scielo.org.pe/pdf/rins/v25n4/a21v25n4.pdf (2008)
 
 [2] H.Sánchez, “Desafíos para la investigación en la universidad Peruana ” [Online].Available:https://www.urp.edu.pe/pdf/id/4282/n/sanchez-h.-desafios-para-la-investigacion-en-la-universidad-peruana.pdf
-
-[3] N. author found, “University Rankings - Peru 2024.” [Online]. Available: https://www.scimagoir.com/rankings.php?sector=Higher+educ.&country=PER
