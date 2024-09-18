@@ -20,14 +20,4 @@
 ![20](https://github.com/user-attachments/assets/0aba9a86-8878-4f42-b0a2-10e136d09124)
 ![21](https://github.com/user-attachments/assets/97e6f4b3-1739-4a92-8b64-cdbbe5009577)
 
-
-
-
-
-
-
-
-
-
-
 # Bibliografía
