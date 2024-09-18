@@ -82,3 +82,5 @@ En este caso, se optimizó una minicentrífuga de modo que sea capaz de usar may
 [4] J. J. Franco, T. Nagata, T. Okamoto, S. Mukai (2023, Feb), "An ultralow-cost portable centrifuge from discarded materials for medical applications" [Online]. Available: https://www.nature.com/articles/s41598-023-30327-2.
 
 [5] E. Haque, L. Marriott, N. Naeem, T. Henry, A. J. Conde, M. Kersaudy-Kerhoas (2022, Apr), "A low-cost, open-source centrifuge adaptor for separating large volume clinical blood samples" [Online]. Available: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0266769.
+
+[6] J. Wu, Jasson H. N. (2019, Jul), "Open hardware centrifuge project" [Online]. Available: https://fosh-following-demand.github.io/Open-source-Centrifuge-for-WetLab/
