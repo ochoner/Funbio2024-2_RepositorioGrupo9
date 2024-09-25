@@ -10,4 +10,5 @@
 ![10](https://github.com/user-attachments/assets/4de75bb5-e5c5-48bc-907f-5d79d98aa937)
 ![image](https://github.com/user-attachments/assets/00654724-37b5-49ec-aad2-a734d815e1b5)
 
-Bibliografía:
+# Bibliografía:
+https://uelectronics.com/elige-el-buzzer-correcto-para-tu-proyecto/?srsltid=AfmBOopAWX4y_CZmqWwXFx1cUGdZVCLlXABkj5HjbIZpCCEbrJIiOuPK
