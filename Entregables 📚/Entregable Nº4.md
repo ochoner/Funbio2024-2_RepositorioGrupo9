@@ -8,7 +8,11 @@
 ![8](https://github.com/user-attachments/assets/acfab432-227e-4170-bbd6-7386e69c34a8)
 ![9](https://github.com/user-attachments/assets/e5d10ff9-cbd1-4a85-9512-cdb2e4d592d1)
 ![10](https://github.com/user-attachments/assets/4de75bb5-e5c5-48bc-907f-5d79d98aa937)
-![image](https://github.com/user-attachments/assets/00654724-37b5-49ec-aad2-a734d815e1b5)
+## BOCETOS
+![image](https://github.com/user-attachments/assets/24c7099c-7835-4ddb-925c-4ce60a1a0e73)
+![Adaptadores_page-0001](https://github.com/user-attachments/assets/0fd988dc-9226-49cc-a7a6-1173b6f6cc2d)
+![boceto_page-0001](https://github.com/user-attachments/assets/b29e3ab9-b8b5-4ecd-9e4f-a75a5c998cfb)
+
 
 # Bibliografía:
 https://uelectronics.com/elige-el-buzzer-correcto-para-tu-proyecto/?srsltid=AfmBOopAWX4y_CZmqWwXFx1cUGdZVCLlXABkj5HjbIZpCCEbrJIiOuPK
