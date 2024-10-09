@@ -12,3 +12,21 @@
 ![12](https://github.com/user-attachments/assets/c3081618-e9d4-43b7-8c67-4f68fba27e4b)
 ![13](https://github.com/user-attachments/assets/92dacf27-3da2-43a8-adb7-eab81979641e)
 
+# Sketchfab
+- Parte superior de la base : https://skfb.ly/prDSK
+
+- Parte inferior de la base : https://skfb.ly/prDWC
+
+- Rotor : https://skfb.ly/prDSN
+
+- Tapa : https://skfb.ly/prDSP
+
+- Tubo de bisagra : https://skfb.ly/prDSR
+
+- Tapa del tubo de la bisagra : https://skfb.ly/prDSS
+
+- Adaptador de 2 ml : https://skfb.ly/prDWI
+
+- Adaptador de 1.5 ml : https://skfb.ly/prDWD
+
+- Adaptador de 0.5 ml : https://skfb.ly/prDWG
