@@ -1,7 +1,7 @@
 ![1](https://github.com/user-attachments/assets/52d82304-e644-4b6b-9456-eb94687557be)
 ![2](https://github.com/user-attachments/assets/14ce36d2-550c-4312-b386-5006931aa2d7)
 ![3](https://github.com/user-attachments/assets/13c2a269-f32e-419a-9ab3-cae1342d0987)
-![4](https://github.com/user-attachments/assets/53670c7f-d0d0-4242-9f9a-8a66cb360467)
+![Schematic_Esquema-Electrónico-FunBio_2024-10-22 (1)](https://github.com/user-attachments/assets/c3071960-0a68-4ad3-a480-00a0b2f7375e)
 ![5](https://github.com/user-attachments/assets/868b3009-9388-4b29-8845-6a2a2656a5f0)
 ![6](https://github.com/user-attachments/assets/7773d0d3-9be5-4fa6-9326-21b3168e7ec2)
 ![7](https://github.com/user-attachments/assets/064163a4-16eb-43dc-9bbf-fa2cc8551336)
