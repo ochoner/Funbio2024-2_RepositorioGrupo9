@@ -7,6 +7,7 @@
 ![image](https://github.com/user-attachments/assets/e45d809f-787b-4de8-9df5-ecc53127ccee)
 
 # Integrantes del Equipo 
+![grupo foto](https://github.com/user-attachments/assets/25027be7-47cc-47ae-a414-027119712391)
 
 Juan Tinoco (Coordinador General)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--> Correo: juan.tinoco@upch.pe
 
