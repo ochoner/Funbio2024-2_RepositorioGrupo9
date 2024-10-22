@@ -1,3 +1,4 @@
+![PUCP-UPCH](https://github.com/user-attachments/assets/ab7ec245-fe70-4795-bed0-76d48468858e)
 
 # ¡ Bienvenidos al repositorio del equipo 09 !
 
