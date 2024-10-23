@@ -36,3 +36,31 @@
 ![HITO1-Grupo09](https://github.com/user-attachments/assets/f6f6b732-80b5-4009-9d65-be0289156bf3)
 LINK DEL CANVA:
 https://www.canva.com/design/DAGUH6O-RT0/SrX26n6RN46IKF2N1E1ixw/edit
+
+Centrifuga Ensamble: https://skfb.ly/prYU8
+
+Tapa: https://skfb.ly/prYUo
+
+Base 1: https://skfb.ly/prYTJ
+
+Base 2: https://skfb.ly/prYTL
+
+Base 3: https://skfb.ly/prYTY
+
+Base 4: https://skfb.ly/prYUn
+
+Adaptador 0.5 ml : https://skfb.ly/prDWG
+
+Adaptador 1.5 ml : https://skfb.ly/prDWD
+
+Adaptador 2 ml : https://skfb.ly/prDWI
+
+Soporte Motor: https://skfb.ly/prYTI
+
+Rotor: https://skfb.ly/prYTH
+ 
+Parte Superior: https://skfb.ly/prYTG
+
+Bisagra tubo: https://skfb.ly/prDSR 
+
+Bisagra tapa : https://skfb.ly/prDSS
