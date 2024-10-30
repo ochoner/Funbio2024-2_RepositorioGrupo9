@@ -3,7 +3,7 @@
 ![3](https://github.com/user-attachments/assets/81d68a18-a2d7-450f-a2e7-18b8289f02be)
 ![4](https://github.com/user-attachments/assets/692c8f6b-d173-43de-ab1c-d1e015d20163)
 ![5](https://github.com/user-attachments/assets/582603ab-20da-43e2-9424-0594a2213d81)
-DIAGRAMA DE FLUJO: https://miro.com/app/board/uXjVLMf0-vg=/
+## DIAGRAMA DE FLUJO: https://miro.com/app/board/uXjVLMf0-vg=/
 ![7](https://github.com/user-attachments/assets/d3243631-71c3-46e9-b768-cdafb9a5125a)
 ![8](https://github.com/user-attachments/assets/1cf15252-cf16-4dea-bc81-ee0dc71410c1)
 ![9](https://github.com/user-attachments/assets/8ae5ed13-96c8-4ae6-862e-faa9604beb86)
