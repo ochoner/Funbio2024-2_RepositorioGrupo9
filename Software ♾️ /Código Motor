@@ -1,2 +1,51 @@
 A continuación se mostrará el código que se usó para el motor con el arduino UNO:
+Esta sección configura y controla el motor usando un ESC conectado al pin 9. También mapea el valor de RPM a la señal PWM necesaria para el ESC.
+
+cpp
+#include <Servo.h>
+
+// Configuración del pin del ESC
+#define ESC_PIN 9
+Servo ESC;
+
+// Variables para el motor y temporizador
+int maxRPM = 6000;
+long rpmValue = 0;
+bool motorOn = false;
+int remainingTime = 0; // Tiempo restante en segundos
+unsigned long lastTimeUpdate = 0;
+
+void setupMotor() {
+  // Inicializar y calibrar el ESC
+  ESC.attach(ESC_PIN);
+  ESC.writeMicroseconds(2000); // Pulso de calibración máxima potencia
+  delay(2000); // Esperar 2 segundos
+  ESC.writeMicroseconds(1000); // Pulso de calibración mínima potencia
+  delay(2000); // Esperar 2 segundos
+}
+
+void startMotor() {
+  // Iniciar el motor mapeando RPM a microsegundos para el ESC
+  ESC.writeMicroseconds(map(rpmValue, 0, maxRPM, 1000, 2000));
+  motorOn = true;
+  lastTimeUpdate = millis();
+}
+
+void stopMotor() {
+  // Detener el motor enviando señal mínima al ESC
+  motorOn = false;
+  ESC.writeMicroseconds(1000);
+}
+
+void updateMotorTimer() {
+  // Actualizar el temporizador solo si el motor está encendido
+  if (motorOn && millis() - lastTimeUpdate >= 1000) {
+    lastTimeUpdate = millis();
+    if (remainingTime > 0) {
+      remainingTime--;
+    } else {
+      stopMotor(); // Detener el motor cuando el tiempo llega a 0
+    }
+  }
+}
 
