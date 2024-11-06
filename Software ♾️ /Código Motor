@@ -1,4 +1,4 @@
-A continuación se mostrará el código que se usó para el motor con el arduino UNO:
+A continuación se mostrará el código que se usó para el motor (con el ESC) con el arduino UNO:
 Esta sección configura y controla el motor usando un ESC conectado al pin 9. También mapea el valor de RPM a la señal PWM necesaria para el ESC.
 
 cpp
