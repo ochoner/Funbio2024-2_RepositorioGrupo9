@@ -1,4 +1,5 @@
-El código a continuación es el código completo de la funcionalidad de la centrífuga.
+ El código a continuación es el código completo de la funcionalidad de la centrífuga.
+ 
 #include <Wire.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
