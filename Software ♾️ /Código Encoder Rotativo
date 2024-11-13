@@ -1,71 +1,24 @@
-A continuación se mostrará el código que se usó para el Encoder Rotativo con el arduino UNO:
+A continuación se mostrará el código que se usó para el Encoder Rotativo.
 Esta sección configura y gestiona el encoder rotativo, permitiendo al usuario navegar por el menú y configurar valores de RPM y tiempo.
 
-cpp
 #include <Encoder.h>
-
-// Pines del encoder rotativo
 #define ENCODER_PIN_A 2
 #define ENCODER_PIN_B 3
 #define ENCODER_BUTTON_PIN 4
-
-// Inicializar el encoder
 Encoder encoder(ENCODER_PIN_A, ENCODER_PIN_B);
-
-// Variables de control para el encoder
 long oldPosition = -999;
-int currentMenu = 0;
-int timeValue = 0; // Tiempo en minutos
-bool inMenu = true;
 
-void setupEncoder() {
-  pinMode(ENCODER_BUTTON_PIN, INPUT_PULLUP);
+// Lógica de control del encoder
+void loop() {
+    long newPosition = encoder.read() / 4;
+    if (newPosition != oldPosition) {
+        // Código para cambiar de menú o ajustar configuraciones
+    }
+    // Leer botón del encoder para seleccionar opciones
+    if (digitalRead(ENCODER_BUTTON_PIN) == LOW) { /* Código para seleccionar opción */ }
 }
 
 long updateEncoderValue(long currentValue, long maxValue, long step) {
-  // Actualizar el valor del encoder y restringirlo a un máximo
-  long newValue = constrain(encoder.read() / 4 * step, 0, maxValue);
-  return newValue;
+    return constrain(encoder.read() / 4 * step, 0, maxValue);
 }
 
-void handleEncoder() {
-  // Leer la posición actual del encoder
-  long newPosition = encoder.read() / 4;
-
-  if (newPosition != oldPosition) {
-    oldPosition = newPosition;
-    if (inMenu) {
-      // Cambiar opción en el menú principal
-      currentMenu = constrain(newPosition, 0, 3);
-      showMenu(currentMenu);
-    } else {
-      // Configurar valores de RPM o tiempo según la opción seleccionada
-      if (currentMenu == 0) {
-        rpmValue = updateEncoderValue(rpmValue, maxRPM, 100);
-        showRPMConfig(rpmValue);
-      } else if (currentMenu == 1) {
-        timeValue = updateEncoderValue(timeValue, maxTime, 1);
-        showTimeConfig(timeValue);
-      }
-    }
-  }
-
-  if (digitalRead(ENCODER_BUTTON_PIN) == LOW) {
-    // Entrar en la opción del menú seleccionada
-    if (inMenu) {
-      inMenu = false;
-      if (currentMenu == 0) {
-        showRPMConfig(rpmValue);
-      } else if (currentMenu == 1) {
-        showTimeConfig(timeValue);
-      } else if (currentMenu == 3) {
-        startMotor();
-      }
-    } else {
-      inMenu = true;
-      encoder.write(0); // Reiniciar el encoder al salir de configuración
-      showMenu(currentMenu);
-    }
-    delay(500);
-  }
-}
