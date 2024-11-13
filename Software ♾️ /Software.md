@@ -1,237 +1,258 @@
-#include <Encoder.h>
-#include <Adafruit_SSD1306.h>
+El código a continuación es el código completo de la funcionalidad de la centrífuga.
+#include <Wire.h>
 #include <Adafruit_GFX.h>
-#include <TimerOne.h>
+#include <Adafruit_SSD1306.h>
+#include <Encoder.h>
+#include <Servo.h>
 
-// Pines de conexión
-#define ENCODER_CLK 2
-#define ENCODER_DT 3
-#define BUTTON_PIN 4
-#define HALL_SENSOR_PIN 5
-#define BUZZER_PIN 6
-#define LID_SENSOR_PIN 7
+#define SCREEN_WIDTH 128
+#define SCREEN_HEIGHT 64
+#define OLED_RESET -1
+Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
+
+#define ENCODER_PIN_A 2
+#define ENCODER_PIN_B 3
+#define ENCODER_BUTTON_PIN 4
 #define ESC_PIN 9
+#define LIMIT_SWITCH_PIN 5
+#define IR_LED_PIN 6
+#define IR_RECEIVER_PIN 7
+#define BUZZER_PIN 8
 
-// Configuración del encoder y la pantalla OLED
-Encoder encoder(ENCODER_CLK, ENCODER_DT);
-Adafruit_SSD1306 display(128, 64, &Wire, -1);
+Encoder encoder(ENCODER_PIN_A, ENCODER_PIN_B);
+Servo ESC;
 
-// Variables del menú
-int menuOption = 0;
-bool buttonPressed = false;
-int rpmSetting = 0; // RPM configurados
-int timeSetting = 0; // Tiempo configurado en minutos
-int currentRPM = 0;
-int elapsedTime = 0;
-bool isRunning = false;
- TimerOne myTimer;
+long oldPosition = -999;
+int currentMenu = 0;
+bool inMenu = true;
+long rpmValue = 0;
+int timeValue = 0; 
+int maxRPM = 6000;
+int maxTime = 60; 
+bool motorOn = false;
+
+int remainingTime = 0;
+unsigned long lastTimeUpdate = 0;
 
 void setup() {
-    pinMode(BUTTON_PIN, INPUT_PULLUP);
-    pinMode(HALL_SENSOR_PIN, INPUT);
-    pinMode(BUZZER_PIN, OUTPUT);
-    pinMode(LID_SENSOR_PIN, INPUT_PULLUP);
-    pinMode(ESC_PIN, OUTPUT);
+  Serial.begin(9600);
+  
+  pinMode(ENCODER_BUTTON_PIN, INPUT_PULLUP);
+  pinMode(LIMIT_SWITCH_PIN, INPUT_PULLUP);
+  pinMode(IR_LED_PIN, OUTPUT);
+  pinMode(IR_RECEIVER_PIN, INPUT_PULLUP);
+  pinMode(BUZZER_PIN, OUTPUT);
+  
+  if (!display.begin(SSD1306_SWITCHCAPVCC, 0x3C)) {
+    Serial.println(F("Error al iniciar la pantalla OLED"));
+    while (1);
+  }
+  display.clearDisplay();
 
-    // Inicializar pantalla OLED
-    display.begin(SSD1306_SWITCHCAPVCC, 0x3C);
-    display.clearDisplay();
-    display.display();
+  ESC.attach(ESC_PIN);
+  ESC.writeMicroseconds(2000);
+  delay(2000);
+  ESC.writeMicroseconds(1000);
+  delay(2000);
 
-    // Mensaje de bienvenida
-    display.setTextSize(1);
-    display.setTextColor(WHITE);
-    display.setCursor(0, 0);
-    display.print("Bienvenido!");
-    display.display();
-    delay(5000); // Pausa de 5 segundos en la pantalla de bienvenida
-
-    // Configurar el encoder
-    encoder.write(0);
-     // Crea una instancia de TimerOne
-
-
-    myTimer.initialize(1000000); // 1 segundo
-    myTimer.attachInterrupt(timerISR); // Temporizador para conteo
-
-
+  // Sonido inicial
+  tone(BUZZER_PIN, 800, 500);
+  delay(500);
+  tone(BUZZER_PIN, 1000, 500);
+  delay(500);
+  tone(BUZZER_PIN, 1200, 500);
+  
+  showWelcomeScreen();
 }
 
 void loop() {
-    // Leer el valor del encoder
-    int16_t encoderPosition = encoder.read() / 4;
+  long newPosition = encoder.read() / 4;
 
-    if (!isRunning) {
-        if (encoderPosition != menuOption) {
-            menuOption = encoderPosition;
-            if (menuOption < 0) menuOption = 0;
-            if (menuOption > 3) menuOption = 3;
-            displayMenu(menuOption);
-        }
-
-        if (digitalRead(BUTTON_PIN) == LOW && !buttonPressed) {
-            buttonPressed = true;
-            handleMenuSelection(menuOption);
-            delay(300);
-        }
-
-        if (digitalRead(BUTTON_PIN) == HIGH) {
-            buttonPressed = false;
-        }
+  if (newPosition != oldPosition) {
+    oldPosition = newPosition;
+    if (inMenu) {
+      currentMenu = constrain(newPosition, 0, 3);
+      showMenu();
+    } else {
+      if (currentMenu == 0) {
+        rpmValue = updateEncoderValue(rpmValue, maxRPM, 100);
+        showRPMConfig();
+      } else if (currentMenu == 1) {
+        timeValue = updateEncoderValue(timeValue, maxTime, 1);
+        showTimeConfig();
+      }
     }
-    // Mostrar RPM y tiempo restante durante centrifugación
-    else {
-        monitorCentrifugation();
+  }
+
+  if (digitalRead(ENCODER_BUTTON_PIN) == LOW) {
+    if (inMenu) {
+      if (currentMenu == 3) {
+        if (digitalRead(LIMIT_SWITCH_PIN) == LOW) {
+          if (checkBalance()) {
+            startMotor();
+          } else {
+            displayError("Desbalance detectado");
+          }
+        } else {
+          displayError("Error: Tapa abierta");
+        }
+      } else {
+        enterMenuOption(currentMenu);
+      }
+    } else {
+      inMenu = true;
+      if (currentMenu == 0 || currentMenu == 1) {
+        encoder.write(0);
+      }
+      showMenu();
     }
+    delay(500);
+  }
+
+  if (motorOn) {
+    // Verificar tapa y desbalance en cada ciclo de loop
+    if (digitalRead(LIMIT_SWITCH_PIN) == HIGH) {
+      stopMotor("Error: Tapa abierta");
+    } else if (!checkBalance()) {
+      stopMotor("Desbalance detectado");
+    } else if (millis() - lastTimeUpdate >= 1000) {
+      lastTimeUpdate = millis();
+      updateTimer();
+    }
+  }
 }
 
-// Función de interrupción del temporizador
-void timerISR() {
-    if (isRunning && currentRPM >= rpmSetting) {
-        elapsedTime++;
-        if (elapsedTime >= timeSetting * 60) {
-            isRunning = false;
-            display.clearDisplay();
-            display.setCursor(0, 0);
-            display.print("Terminó la Centrifugación");
-            display.display();
-            tone(BUZZER_PIN, 1000, 2000); // Sonido del buzzer al finalizar
-        }
-    }
+void showWelcomeScreen() {
+  display.clearDisplay();
+  display.setTextSize(1);
+  display.setTextColor(SSD1306_WHITE);
+  display.setCursor(20, 25);
+  display.println(F("Bienvenido"));
+  display.display();
+  delay(2000);
+  showMenu();
 }
 
-// Función para mostrar el menú
-void displayMenu(int option) {
+void showMenu() {
+  display.clearDisplay();
+  display.setTextSize(1);
+  display.setTextColor(SSD1306_WHITE);
+  display.setCursor(0, 0);
+  display.println(F("Menu principal"));
+  display.setCursor(0, 20);
+  display.println(currentMenu == 0 ? "> RPM" : "  RPM");
+  display.setCursor(0, 30);
+  display.println(currentMenu == 1 ? "> TIEMPO" : "  TIEMPO");
+  display.setCursor(0, 40);
+  display.println(currentMenu == 2 ? "> ERRORES" : "  ERRORES");
+  display.setCursor(0, 50);
+  display.println(currentMenu == 3 ? "> INICIAR" : "  INICIAR");
+  display.display();
+}
+
+void enterMenuOption(int option) {
+  inMenu = false;
+  if (option == 0) {
+    showRPMConfig();
+  } else if (option == 1) {
+    showTimeConfig();
+  } else {
+    displayError("Opción seleccionada");
+  }
+}
+
+void showRPMConfig() {
+  display.clearDisplay();
+  display.setCursor(0, 0);
+  display.setTextSize(1);
+  display.setTextColor(SSD1306_WHITE);
+  display.print(F("Configurar RPM: "));
+  display.println(rpmValue);
+  display.setCursor(0, 50);
+  display.println(F("Presiona para salir"));
+  display.display();
+}
+
+void showTimeConfig() {
+  display.clearDisplay();
+  display.setCursor(0, 0);
+  display.setTextSize(1);
+  display.setTextColor(SSD1306_WHITE);
+  display.print(F("Configurar Tiempo: "));
+  display.print(timeValue);
+  display.println(F(" min"));
+  display.setCursor(0, 50);
+  display.println(F("Presiona para salir"));
+  display.display();
+}
+
+long updateEncoderValue(long currentValue, long maxValue, long step) {
+  long newValue = constrain(encoder.read() / 4 * step, 0, maxValue);
+  return newValue;
+}
+
+void startMotor() {
+  display.clearDisplay();
+  display.setCursor(0, 0);
+  display.setTextSize(1);
+  display.setTextColor(SSD1306_WHITE);
+  display.println(F("Iniciando centrifugado"));
+  display.display();
+  
+  ESC.writeMicroseconds(map(rpmValue, 0, maxRPM, 1000, 2000));
+  remainingTime = timeValue * 60;
+  motorOn = true;
+  lastTimeUpdate = millis();
+}
+
+void updateTimer() {
+  if (remainingTime > 0) {
+    remainingTime--;
     display.clearDisplay();
+    display.setCursor(0, 0);
     display.setTextSize(1);
-    display.setCursor(0, 0);
-    display.setTextColor(WHITE);
-
-    if (option == 0) display.print("> RPM");
-    else display.print("  RPM");
-
-    display.setCursor(0, 16);
-    if (option == 1) display.print("> Tiempo");
-    else display.print("  Tiempo");
-
-    display.setCursor(0, 32);
-    if (option == 2) display.print("> Errores");
-    else display.print("  Errores");
-
-    display.setCursor(0, 48);
-    if (option == 3) display.print("> Iniciar");
-    else display.print("  Iniciar");
-
+    display.setTextColor(SSD1306_WHITE);
+    display.print(F("RPM: "));
+    display.println(rpmValue);
+    display.setCursor(0, 20);
+    display.print(F("Tiempo restante: "));
+    display.print(remainingTime / 60);
+    display.print(F(":"));
+    display.println(remainingTime % 60);
     display.display();
+  } else {
+    stopMotor("Terminó la Centrifugación");
+    tone(BUZZER_PIN, 1000, 2000);  // Sonido de finalización
+  }
 }
 
-// Función para manejar la selección del menú
-void handleMenuSelection(int option) {
-    if (option == 0) {
-        rpmSetting = adjustRPM();
-    } else if (option == 1) {
-        timeSetting = adjustTime();
-    } else if (option == 2) {
-        displayErrors();
-    } else if (option == 3) {
-        startCentrifugation();
-    }
+void stopMotor(const char* message) {
+  motorOn = false;
+  ESC.writeMicroseconds(1000);
+  displayError(message);
 }
 
-// Ajuste de RPM usando el encoder
-int adjustRPM() {
-    int rpm = 0;
-    while (digitalRead(BUTTON_PIN) == HIGH) {
-        rpm = (encoder.read() / 4) * 100;
-        if (rpm < 0) rpm = 0;
-        if (rpm > 6000) rpm = 6000;
-        
-        display.clearDisplay();
-        display.setCursor(0, 0);
-        display.print("RPM: ");
-        display.print(rpm);
-        display.display();
-        delay(100);
-    }
-    encoder.write(rpm / 100 * 4);
-    return rpm;
+bool checkBalance() {
+  digitalWrite(IR_LED_PIN, HIGH);
+  delay(10);
+  bool inBalance = digitalRead(IR_RECEIVER_PIN) == HIGH;
+  digitalWrite(IR_LED_PIN, LOW);
+  return inBalance;
 }
 
-// Ajuste de tiempo usando el encoder
-int adjustTime() {
-    int time = 0;
-    while (digitalRead(BUTTON_PIN) == HIGH) {
-        time = encoder.read() / 4;
-        if (time < 0) time = 0;
-        if (time > 60) time = 60;
-        
-        display.clearDisplay();
-        display.setCursor(0, 0);
-        display.print("Tiempo: ");
-        display.print(time);
-        display.print(" min");
-        display.display();
-        delay(100);
-    }
-    encoder.write(time * 4);
-    return time;
-}
-
-// Mostrar errores
-void displayErrors() {
-    display.clearDisplay();
-    display.setCursor(0, 0);
-    display.print("Verifica:");
-    display.setCursor(0, 16);
-    if (digitalRead(LID_SENSOR_PIN) == HIGH) {
-        display.print("- Tapa cerrada");
-    } else {
-        display.print("- ERROR: Tapa abierta");
-    }
-    display.setCursor(0, 32);
-    if (digitalRead(HALL_SENSOR_PIN) == LOW) {
-        display.print("- Balanceo correcto");
-    } else {
-        display.print("- ERROR: Desequilibrado");
-    }
-    display.display();
-    delay(3000);
-}
-
-// Iniciar centrifugación
-void startCentrifugation() {
-    if (digitalRead(LID_SENSOR_PIN) == LOW) {
-        display.clearDisplay();
-        display.setCursor(0, 0);
-        display.print("ERROR: Tapa abierta");
-        display.display();
-        delay(2000);
-        return;
-    }
-    if (digitalRead(HALL_SENSOR_PIN) == HIGH) {
-        display.clearDisplay();
-        display.setCursor(0, 0);
-        display.print("ERROR: Desequilibrio");
-        display.display();
-        delay(2000);
-        return;
-    }
-
-    elapsedTime = 0;
-    isRunning = true;
-    analogWrite(ESC_PIN, map(rpmSetting, 0, 6000, 0, 255));
-}
-
-// Monitorear centrifugación
-void monitorCentrifugation() {
-    display.clearDisplay();
-    display.setCursor(0, 0);
-    display.print("RPM actual: ");
-    display.print(currentRPM);
-
-    display.setCursor(0, 16);
-    display.print("Tiempo: ");
-    display.print((timeSetting * 60 - elapsedTime) / 60);
-    display.print(" min");
-    display.display();
+void displayError(const char* errorMessage) {
+  display.clearDisplay();
+  display.setCursor(0, 0);
+  display.setTextSize(1);
+  display.setTextColor(SSD1306_WHITE);
+  display.println(errorMessage);
+  display.display();
+  
+  // Sonido de error
+  tone(BUZZER_PIN, 400, 300);
+  delay(300);
+  tone(BUZZER_PIN, 300, 300);
+  
+  delay(3000);
+  showMenu();
 }
