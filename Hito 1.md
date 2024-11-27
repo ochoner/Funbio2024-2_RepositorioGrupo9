@@ -1,4 +1,4 @@
-![22](https://github.com/user-attachments/assets/17ccec44-4edd-46d0-84a1-7f5bad3e0e22)![posibles titulos](https://github.com/user-attachments/assets/4b53cb0b-02f2-4b19-a91f-5a21bfff2b83)
+
 ![2](https://github.com/user-attachments/assets/4ea1ff5a-6faa-4ca6-8802-bb0ae5b08e05)
 ![3](https://github.com/user-attachments/assets/41626436-2f6c-4c83-a0da-a4dd0b39d1e0)
 ![4](https://github.com/user-attachments/assets/fabf52fd-34a7-4fcc-9c85-0e03cd9ccc60)
