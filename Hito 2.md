@@ -31,7 +31,7 @@
 
 
 LINK DIAGRAMA DE FLUJO:
-https://miro.com/app/board/uXjVLMf0-vg=/
+https://miro.com/welcomeonboard/cjgxYUgycE5NSWRScFlSOGZ5Q2NhRXpxOFNVQlhUZWp5amhnem5IQ1NETEJFSVJOM2IrZ2VIN00xWVhhamp0ZmhIRkF2Tm9sWEsrRXJYUzdsa05xT0dsZ1Y5azJkejRGaWhZd2s5U0FqTDJoVURiTkJiSTloaENsRFBFeEh6eDghZQ==?share_link_id=605553308154
 
 
 LINK DEL CANVA: https://www.canva.com/design/DAGXbtZrRcM/kLD-g3SwRTBDG_7QSBVbJg/edit?utm_content=DAGXbtZrRcM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
